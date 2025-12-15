@@ -1,6 +1,106 @@
 {
 .appVersion = "3343";
 .formatVersion = 3;
+classes = (
+{
+code = "akara-bali
+ikara-bali
+raRepa-bali
+ekara-bali
+ha-bali
+na-bali
+naRambat-bali
+ca-bali
+caLaca-bali
+ra-bali
+ka-bali
+kafSasak-bali
+khotSasak-bali
+da-bali
+daMadu-bali
+daMurdaAlpaprana-bali
+ta-bali
+taMurdaMahaprana-bali
+taLatik-bali
+taTawa-bali
+tzirSasak-bali
+sa-bali
+saSapa-bali
+saSaga-bali
+zalSasak-bali
+asyuraSasak-bali
+wa-bali
+veSasak-bali
+la-bali
+ma-bali
+ga-bali
+gaGora-bali
+ba-bali
+baKembang-bali
+nga-bali
+pa-bali
+efSasak-bali
+ja-bali
+ya-bali
+nya-bali 
+sa-bali.post
+saSapa-bali.post
+zalSasak-bali.post
+pa-bali.post
+efSasak-bali.post
+";
+name = AksaraNeedsAlt;
+},
+{
+code = "akara-bali.alt
+ikara-bali.alt
+raRepa-bali.alt
+ekara-bali.alt
+ha-bali.alt
+na-bali.alt
+naRambat-bali.alt
+ca-bali.alt
+caLaca-bali.alt
+ra-bali.alt
+ka-bali.alt
+kafSasak-bali.alt
+khotSasak-bali.alt
+da-bali.alt
+daMadu-bali.alt
+daMurdaAlpaprana-bali.alt
+ta-bali.alt
+taMurdaMahaprana-bali.alt
+taLatik-bali.alt
+taTawa-bali.alt
+tzirSasak-bali.alt
+sa-bali.alt
+saSapa-bali.alt
+saSaga-bali.alt
+zalSasak-bali.alt
+asyuraSasak-bali.alt
+wa-bali.alt
+veSasak-bali.alt
+la-bali.alt
+ma-bali.alt
+ga-bali.alt
+gaGora-bali.alt
+ba-bali.alt
+baKembang-bali.alt
+nga-bali.alt
+pa-bali.alt
+efSasak-bali.alt
+ja-bali.alt
+ya-bali.alt
+nya-bali.alt
+sa-bali.post.alt
+saSapa-bali.post.alt
+zalSasak-bali.post.alt
+pa-bali.post.alt
+efSasak-bali.post.alt
+";
+name = AksaraAlt;
+}
+);
 date = "2025-10-24 09:24:13 +0000";
 familyName = "Godya Display Balinese";
 featurePrefixes = (
@@ -100,6 +200,11 @@ value = "";
 }
 );
 tag = ss03;
+},
+{
+code = "sub [@AksaraNeedsAlt]' [@MeetsAksaraAlt] by [@AksaraAlt];
+sub [@AksaraNeedsAlt]' [@UluningAksara] [@MeetsAksaraAlt] by [@AksaraAlt];";
+tag = calt;
 }
 );
 fontMaster = (
