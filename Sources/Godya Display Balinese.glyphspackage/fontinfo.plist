@@ -99,6 +99,56 @@ pa-bali.post.alt
 efSasak-bali.post.alt
 ";
 name = AksaraAlt;
+},
+{
+code = "na-bali.below
+suku-bali
+sukuIlut-bali
+ra-bali.below
+raRepaMark-bali
+wa-bali.below
+wa-bali.below2
+suku-bali.below
+sukuIlut-bali.below
+sa-bali.post
+saSapa-bali.post
+zalSasak-bali.post
+taTawa-bali.below
+veSasak-bali.below
+
+
+";
+name = MeetsAksaraAlt;
+},
+{
+code = "ulu-bali
+ulu_uluRicem-bali
+ulu_uluCandra-bali
+ulu_cecek-bali
+ulu_surang-bali
+uluSari-bali
+uluSari_uluRicem-bali
+uluSari_uluCandra-bali
+uluSari_cecek-bali
+uluSari_surang-bali
+uluRicem-bali
+uluCandra-bali
+pepet-bali
+pepet_cecek-bali
+pepet_surang-bali
+cecek-bali
+surang-bali
+rerekan-bali
+rerekan_cecek-bali
+rerekan_surang-bali
+rerekan_ulu_cecek-bali
+rerekan_ulu_surang-bali
+rerekan_uluSari_cecek-bali
+rerekan_uluSari_surang-bali
+rerekan_pepet_cecek-bali
+rerekan_pepet_surang-bali
+";
+name = UluningAksara;
 }
 );
 date = "2025-10-24 09:24:13 +0000";
@@ -116,14 +166,10 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature calt;
-feature blwf;
-feature pstf;
-feature blws;
-feature psts;
-feature ss01;
+code = "feature ss01;
 feature ss02;
 feature ss03;
+feature calt;
 ";
 tag = aalt;
 },
@@ -205,6 +251,20 @@ tag = ss03;
 code = "sub [@AksaraNeedsAlt]' [@MeetsAksaraAlt] by [@AksaraAlt];
 sub [@AksaraNeedsAlt]' [@UluningAksara] [@MeetsAksaraAlt] by [@AksaraAlt];";
 tag = calt;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub L A by L_A.liga;
+sub L E by L_E.liga;
+sub L I by L_I.liga;
+sub L R by L_R.liga;
+sub R O by R_O.liga;
+sub S S by S_S.liga;
+sub T H by T_H.liga;
+sub T O by T_O.liga;
+";
+tag = liga;
 }
 );
 fontMaster = (
