@@ -1,0 +1,22 @@
+{
+glyphname = quotesingle;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,455,l),
+(115,455,l),
+(173,502,l),
+(224,743,l),
+(65,743,l)
+);
+}
+);
+width = 244;
+}
+);
+unicode = 39;
+}

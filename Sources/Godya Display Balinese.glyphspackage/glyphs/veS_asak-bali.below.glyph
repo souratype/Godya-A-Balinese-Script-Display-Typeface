@@ -1,0 +1,29 @@
+{
+glyphname = "veSasak-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _Gantungan_Lurus;
+pos = (948,0);
+},
+{
+name = _bottom;
+pos = (948,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "wa-bali.below";
+},
+{
+pos = (493,-1117);
+ref = _suwet_ka;
+}
+);
+width = 1065;
+}
+);
+}

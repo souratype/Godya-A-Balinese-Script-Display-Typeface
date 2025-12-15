@@ -1,0 +1,26 @@
+{
+glyphname = "gaGora-bali.below.alt";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1942,0);
+},
+{
+name = bottom;
+pos = (1864,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-791);
+ref = "gaGora-bali.alt";
+}
+);
+width = 1968;
+}
+);
+}

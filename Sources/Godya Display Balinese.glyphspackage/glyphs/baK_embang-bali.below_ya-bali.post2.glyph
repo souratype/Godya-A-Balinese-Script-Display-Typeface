@@ -1,0 +1,28 @@
+{
+glyphname = "baKembang-bali.below_ya-bali.post2";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (-612,-807);
+},
+{
+name = top;
+pos = (303,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (-1317,0);
+ref = "baKembang-bali.below";
+},
+{
+ref = "ya-bali.post2";
+}
+);
+width = 579;
+}
+);
+}

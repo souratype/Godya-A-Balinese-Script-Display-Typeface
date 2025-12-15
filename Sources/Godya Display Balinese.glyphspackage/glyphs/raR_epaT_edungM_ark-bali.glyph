@@ -1,0 +1,30 @@
+{
+glyphname = "raRepaTedungMark-bali";
+layers = (
+{
+anchors = (
+{
+name = _Gantungan_Lurus;
+pos = (1175,0);
+},
+{
+name = bottom;
+pos = (1226,-403);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "raRepaMark-bali";
+},
+{
+pos = (1292,0);
+ref = "tedung-bali";
+}
+);
+width = 1966;
+}
+);
+unicode = 6971;
+}

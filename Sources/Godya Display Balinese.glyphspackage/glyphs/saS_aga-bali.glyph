@@ -1,0 +1,29 @@
+{
+glyphname = "saSaga-bali";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1631,0);
+},
+{
+name = top;
+pos = (851,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ga-bali";
+},
+{
+pos = (740,0);
+ref = _cecek_bangkiang;
+}
+);
+width = 1651;
+}
+);
+unicode = 6960;
+}

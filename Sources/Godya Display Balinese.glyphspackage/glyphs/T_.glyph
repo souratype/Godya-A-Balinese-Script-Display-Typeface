@@ -1,0 +1,48 @@
+{
+glyphname = T;
+kernLeft = T;
+kernRight = T;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (315,0);
+},
+{
+name = center;
+pos = (315,350);
+},
+{
+name = top;
+pos = (315,750);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(412,485,ls),
+(412,517,o),
+(430,535,o),
+(462,535,cs),
+(600,535,l),
+(600,700,l),
+(30,700,l),
+(30,535,l),
+(167,535,ls),
+(199,535,o),
+(217,517,o),
+(217,485,cs),
+(217,0,l),
+(412,0,l)
+);
+}
+);
+width = 630;
+}
+);
+metricRight = "=|";
+unicode = 84;
+}

@@ -1,0 +1,30 @@
+{
+glyphname = "nya-bali.below.alt";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1929,0);
+},
+{
+name = _nya_below;
+pos = (1929,0);
+},
+{
+name = bottom;
+pos = (1486,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-791);
+ref = "nya-bali.alt";
+}
+);
+width = 1949;
+}
+);
+}

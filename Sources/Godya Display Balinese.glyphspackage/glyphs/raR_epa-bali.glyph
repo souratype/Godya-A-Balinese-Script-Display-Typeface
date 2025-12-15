@@ -1,0 +1,25 @@
+{
+glyphname = "raRepa-bali";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1233,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "pa-bali";
+},
+{
+pos = (362,0);
+ref = _repa_;
+}
+);
+width = 1253;
+}
+);
+unicode = 6923;
+}

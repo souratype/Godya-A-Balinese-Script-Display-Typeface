@@ -1,0 +1,15 @@
+{
+glyphname = "deng-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "taling-bali";
+}
+);
+width = 727;
+}
+);
+unicode = 7010;
+}

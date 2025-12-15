@@ -1,0 +1,64 @@
+{
+glyphname = L_I.liga;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (428,0);
+},
+{
+name = center;
+pos = (249,350);
+},
+{
+name = ogonek;
+pos = (784,10);
+},
+{
+name = top;
+pos = (428,750);
+},
+{
+name = topleft;
+pos = (538,700);
+},
+{
+name = topright;
+pos = (478,700);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,700,l),
+(50,700,l),
+(50,0,l),
+(538,0,l),
+(538,175,l),
+(295,175,ls),
+(263,175,o),
+(245,193,o),
+(245,225,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(330,244,l),
+(525,244,l),
+(525,700,l),
+(330,700,l)
+);
+}
+);
+width = 588;
+}
+);
+metricLeft = L;
+metricRight = I;
+}

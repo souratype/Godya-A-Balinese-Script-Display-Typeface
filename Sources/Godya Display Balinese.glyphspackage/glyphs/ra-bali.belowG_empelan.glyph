@@ -1,0 +1,48 @@
+{
+category = Mark;
+glyphname = "ra-bali.belowGempelan";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (839,0);
+},
+{
+name = bottom;
+pos = (894,-402);
+},
+{
+name = cecek_bangkiang;
+pos = (491,-653);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(143,-204,l),
+(-43,-576,o),
+(-78,-1123,o),
+(470,-1123,cs),
+(727,-1123,o),
+(936,-993,o),
+(936,-530,cs),
+(936,27,l),
+(741,27,l),
+(741,-516,ls),
+(741,-795,o),
+(690,-928,o),
+(470,-928,cs),
+(170,-928,o),
+(133,-673,o),
+(313,-286,c)
+);
+}
+);
+width = 956;
+}
+);
+subCategory = Nonspacing;
+}

@@ -1,0 +1,35 @@
+{
+export = 0;
+glyphname = _cecek_bangkiang;
+layers = (
+{
+anchors = (
+{
+name = _cecek_bangkiang;
+pos = (163,429);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(310,-278,l),
+(267,247,ls),
+(255,386,o),
+(142,409,o),
+(83,357,cs),
+(10,291,l),
+(54,202,l),
+(102,239,ls),
+(120,253,o),
+(139,241,o),
+(142,215,cs),
+(200,-278,l)
+);
+}
+);
+width = 400;
+}
+);
+}

@@ -1,0 +1,20 @@
+{
+glyphname = less;
+kernLeft = less;
+kernRight = less;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+pos = (499,0);
+ref = greater;
+scale = (-1,1);
+}
+);
+width = 499;
+}
+);
+unicode = 60;
+}

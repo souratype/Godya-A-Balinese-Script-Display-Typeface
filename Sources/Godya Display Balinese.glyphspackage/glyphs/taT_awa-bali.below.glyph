@@ -1,0 +1,33 @@
+{
+glyphname = "taTawa-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _Gantungan2;
+pos = (948,0);
+},
+{
+name = _Gantungan_Lurus;
+pos = (948,0);
+},
+{
+name = _bottom;
+pos = (948,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "wa-bali.below";
+},
+{
+pos = (409,-1081);
+ref = _cecek_bangkiang;
+}
+);
+width = 1065;
+}
+);
+}

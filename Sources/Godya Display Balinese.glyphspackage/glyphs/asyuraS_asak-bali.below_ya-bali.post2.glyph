@@ -1,0 +1,25 @@
+{
+glyphname = "asyuraSasak-bali.below_ya-bali.post2";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (303,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (-2039,0);
+ref = "asyuraSasak-bali.below";
+},
+{
+alignment = -1;
+ref = "ya-bali.post2";
+}
+);
+width = 579;
+}
+);
+}

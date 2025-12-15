@@ -1,0 +1,21 @@
+{
+glyphname = "leftHandOpenPang-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(658,314,l),
+(658,500,l),
+(20,500,l),
+(20,314,l)
+);
+}
+);
+width = 678;
+}
+);
+unicode = 7032;
+}

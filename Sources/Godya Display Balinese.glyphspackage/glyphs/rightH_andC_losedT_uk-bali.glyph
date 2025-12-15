@@ -1,0 +1,19 @@
+{
+glyphname = "rightHandClosedTuk-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "rightHandOpenDug-bali";
+},
+{
+pos = (31,0);
+ref = _segitiga_bali;
+}
+);
+width = 832;
+}
+);
+unicode = 7030;
+}

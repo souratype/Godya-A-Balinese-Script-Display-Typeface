@@ -1,0 +1,40 @@
+{
+glyphname = "ka-bali";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1611,0);
+},
+{
+name = gantungan_cenik;
+pos = (766,0);
+},
+{
+name = top;
+pos = (704,800);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (1611,-111);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "na-bali";
+},
+{
+pos = (1212,0);
+ref = _belakang_ha;
+}
+);
+width = 1631;
+}
+);
+unicode = 6931;
+}

@@ -1,0 +1,29 @@
+{
+category = Letter;
+glyphname = "saSapa-bali.post";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1045,0);
+},
+{
+name = top;
+pos = (402,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "pa-bali.post";
+},
+{
+pos = (238,0);
+ref = _cecek_bangkiang;
+}
+);
+width = 1065;
+}
+);
+}

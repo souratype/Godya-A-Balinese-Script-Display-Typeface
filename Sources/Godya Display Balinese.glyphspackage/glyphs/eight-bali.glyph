@@ -1,0 +1,15 @@
+{
+glyphname = "eight-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "paKapal-bali";
+}
+);
+width = 1165;
+}
+);
+unicode = 7000;
+}

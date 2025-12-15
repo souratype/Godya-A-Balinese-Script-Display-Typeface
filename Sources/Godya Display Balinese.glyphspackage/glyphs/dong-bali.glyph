@@ -1,0 +1,15 @@
+{
+glyphname = "dong-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "tedung-bali";
+}
+);
+width = 674;
+}
+);
+unicode = 7009;
+}

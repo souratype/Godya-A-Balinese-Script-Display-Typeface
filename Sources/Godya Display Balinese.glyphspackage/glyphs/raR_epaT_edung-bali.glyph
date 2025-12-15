@@ -1,0 +1,19 @@
+{
+glyphname = "raRepaTedung-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "raRepa-bali";
+},
+{
+pos = (1253,0);
+ref = _tedung_bali;
+}
+);
+width = 1927;
+}
+);
+unicode = 6924;
+}

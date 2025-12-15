@@ -1,0 +1,16 @@
+{
+glyphname = "rightHandOpenDag-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "zero-bali";
+}
+);
+width = 772;
+}
+);
+unicode = 7029;
+}

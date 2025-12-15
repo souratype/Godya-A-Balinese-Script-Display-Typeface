@@ -1,0 +1,27 @@
+{
+glyphname = "kempulJegogan-bali";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (321,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (64,0);
+ref = _kempul;
+},
+{
+alignment = -1;
+ref = "kempliJegogan-bali";
+}
+);
+width = 642;
+}
+);
+unicode = 7024;
+}

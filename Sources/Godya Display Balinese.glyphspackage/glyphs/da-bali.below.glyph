@@ -1,0 +1,40 @@
+{
+glyphname = "da-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1031,0);
+},
+{
+name = _gantungan_cenik;
+pos = (380,0);
+},
+{
+name = _nya_gantungan;
+pos = (380,0);
+},
+{
+name = bottom;
+pos = (781,-791);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (781,119);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-791);
+ref = "ekara-bali";
+}
+);
+width = 801;
+}
+);
+}

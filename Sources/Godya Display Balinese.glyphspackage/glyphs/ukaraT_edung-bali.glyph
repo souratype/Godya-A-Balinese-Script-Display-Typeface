@@ -1,0 +1,19 @@
+{
+glyphname = "ukaraTedung-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ukara-bali";
+},
+{
+pos = (789,0);
+ref = "tedung-bali";
+}
+);
+width = 1463;
+}
+);
+unicode = 6922;
+}

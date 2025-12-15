@@ -1,0 +1,26 @@
+{
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (94,0);
+},
+{
+name = bottom;
+pos = (94,-222);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-1002);
+ref = dotaccentcomb;
+}
+);
+width = 187;
+}
+);
+unicode = 803;
+}

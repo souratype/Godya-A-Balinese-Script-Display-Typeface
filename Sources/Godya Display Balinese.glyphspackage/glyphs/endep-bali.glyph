@@ -1,0 +1,22 @@
+{
+glyphname = "endep-bali";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (514,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-1347);
+ref = "tegeh-bali";
+}
+);
+width = 482;
+}
+);
+unicode = 7020;
+}

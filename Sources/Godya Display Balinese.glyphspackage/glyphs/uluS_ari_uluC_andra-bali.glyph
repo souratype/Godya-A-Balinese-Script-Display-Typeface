@@ -1,0 +1,25 @@
+{
+glyphname = "uluSari_uluCandra-bali";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (910,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "uluSari-bali";
+},
+{
+pos = (890,0);
+ref = _uluCandra_short;
+}
+);
+width = 896;
+}
+);
+}

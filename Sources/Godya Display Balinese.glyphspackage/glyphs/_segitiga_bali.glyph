@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = _segitiga_bali;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(90,678,l),
+(-20,567,l),
+(376,224,l),
+(444,292,l)
+);
+}
+);
+width = 464;
+}
+);
+}

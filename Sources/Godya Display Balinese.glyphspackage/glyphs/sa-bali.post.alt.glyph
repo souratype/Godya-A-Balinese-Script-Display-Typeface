@@ -1,0 +1,25 @@
+{
+category = Letter;
+glyphname = "sa-bali.post.alt";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (949,0);
+},
+{
+name = top;
+pos = (402,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "pa-bali.post.alt";
+}
+);
+width = 1065;
+}
+);
+}

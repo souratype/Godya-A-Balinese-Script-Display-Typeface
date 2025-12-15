@@ -1,0 +1,33 @@
+{
+glyphname = one;
+kernLeft = one;
+kernRight = one;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,505,l),
+(142,505,l),
+(142,700,l),
+(20,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,700,l),
+(106,700,l),
+(106,0,l),
+(301,0,l),
+(301,566,l)
+);
+}
+);
+width = 336;
+}
+);
+unicode = 49;
+}

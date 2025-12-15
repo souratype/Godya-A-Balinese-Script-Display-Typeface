@@ -1,0 +1,18 @@
+{
+glyphname = "taMurdaMahaprana_tedung-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "taMurdaMahaprana-bali";
+},
+{
+pos = (1359,0);
+ref = "tedung-bali";
+}
+);
+width = 2033;
+}
+);
+}

@@ -1,0 +1,33 @@
+{
+glyphname = "kaMahaprana-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1311,0);
+},
+{
+name = _nya_gantungan;
+pos = (624,0);
+},
+{
+name = bottom;
+pos = (1214,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "ka-bali.below.alt";
+},
+{
+pos = (1096,-791);
+ref = "_kaMahaprana-bali";
+}
+);
+width = 1331;
+}
+);
+}

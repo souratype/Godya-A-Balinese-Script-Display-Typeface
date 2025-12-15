@@ -1,0 +1,17 @@
+{
+glyphname = z;
+kernLeft = Z;
+kernRight = Z;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Z;
+}
+);
+width = 549;
+}
+);
+unicode = 122;
+}

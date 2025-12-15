@@ -1,0 +1,35 @@
+{
+glyphname = e;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = ogonek;
+pos = (468,10);
+},
+{
+name = top;
+pos = (260,750);
+},
+{
+name = topleft;
+pos = (20,700);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = E;
+}
+);
+width = 530;
+}
+);
+unicode = 101;
+}

@@ -1,0 +1,31 @@
+{
+glyphname = "kempli-bali";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (321,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,948,l),
+(192,889,o),
+(466,891,o),
+(622,973,c),
+(585,1068,l),
+(459,1007,o),
+(213,1016,o),
+(71,1071,c)
+);
+}
+);
+width = 642;
+}
+);
+unicode = 7022;
+}

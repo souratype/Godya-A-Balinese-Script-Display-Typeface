@@ -1,0 +1,17 @@
+{
+glyphname = "dang-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-48,278);
+ref = _cecek_bangkiang;
+}
+);
+width = 348;
+}
+);
+unicode = 7012;
+}

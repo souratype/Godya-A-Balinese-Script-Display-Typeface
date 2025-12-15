@@ -1,0 +1,33 @@
+{
+glyphname = "saSaga-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1317,0);
+},
+{
+name = _nya_gantungan;
+pos = (624,0);
+},
+{
+name = bottom;
+pos = (1317,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "ga-bali.below";
+},
+{
+pos = (730,-791);
+ref = _cecek_bangkiang;
+}
+);
+width = 1339;
+}
+);
+}

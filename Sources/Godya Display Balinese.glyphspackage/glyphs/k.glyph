@@ -1,0 +1,27 @@
+{
+glyphname = k;
+kernLeft = H;
+kernRight = K;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = top;
+pos = (324,750);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = K;
+}
+);
+width = 638;
+}
+);
+unicode = 107;
+}

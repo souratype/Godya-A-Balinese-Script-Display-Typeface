@@ -1,0 +1,24 @@
+{
+glyphname = "raRepa-bali.alt";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1137,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "pa-bali.alt";
+},
+{
+pos = (362,0);
+ref = _repa_;
+}
+);
+width = 1254;
+}
+);
+}

@@ -1,0 +1,17 @@
+{
+glyphname = j;
+kernLeft = J;
+kernRight = U;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = J;
+}
+);
+width = 510;
+}
+);
+unicode = 106;
+}

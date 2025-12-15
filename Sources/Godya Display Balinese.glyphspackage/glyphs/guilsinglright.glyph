@@ -1,0 +1,21 @@
+{
+glyphname = guilsinglright;
+kernLeft = guilsinglright;
+kernRight = guilsinglright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (594,0);
+ref = guilsinglleft;
+scale = (-1,1);
+}
+);
+width = 594;
+}
+);
+metricLeft = "=|guilsinglleft";
+metricRight = "=|guilsinglleft";
+unicode = 8250;
+}

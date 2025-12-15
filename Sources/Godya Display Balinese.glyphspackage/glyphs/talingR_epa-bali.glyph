@@ -1,0 +1,19 @@
+{
+glyphname = "talingRepa-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "taling-bali";
+},
+{
+pos = (257,1299);
+ref = _repa_;
+}
+);
+width = 727;
+}
+);
+unicode = 6975;
+}

@@ -1,0 +1,15 @@
+{
+glyphname = "tedung-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _tedung_bali;
+}
+);
+width = 674;
+}
+);
+unicode = 6965;
+}

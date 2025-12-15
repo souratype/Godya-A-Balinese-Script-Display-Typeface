@@ -1,0 +1,19 @@
+{
+glyphname = "leftHandClosedPluk-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "leftHandOpenPung-bali";
+},
+{
+pos = (146,0);
+ref = _segitiga_bali;
+}
+);
+width = 735;
+}
+);
+unicode = 7035;
+}

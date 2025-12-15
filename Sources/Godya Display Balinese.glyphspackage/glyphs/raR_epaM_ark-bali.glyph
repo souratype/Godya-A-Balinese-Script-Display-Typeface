@@ -1,0 +1,34 @@
+{
+glyphname = "raRepaMark-bali";
+layers = (
+{
+anchors = (
+{
+name = _Gantungan_Lurus;
+pos = (1175,0);
+},
+{
+name = _bottom;
+pos = (1175,0);
+},
+{
+name = bottom;
+pos = (1225,-402);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "ra-bali.below";
+},
+{
+pos = (497,-1082);
+ref = _cecek_bangkiang;
+}
+);
+width = 1292;
+}
+);
+unicode = 6970;
+}

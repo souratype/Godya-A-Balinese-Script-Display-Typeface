@@ -1,0 +1,30 @@
+{
+glyphname = "nga-bali.below.alt";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1319,0);
+},
+{
+name = _nya_gantungan;
+pos = (808,0);
+},
+{
+name = bottom;
+pos = (1222,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-791);
+ref = "nga-bali.alt";
+}
+);
+width = 1340;
+}
+);
+}

@@ -1,0 +1,25 @@
+{
+glyphname = "ulu_uluRicem-bali";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (910,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "ulu-bali";
+},
+{
+pos = (900,0);
+ref = "uluRicem-bali";
+}
+);
+width = 896;
+}
+);
+}

@@ -1,0 +1,27 @@
+{
+glyphname = greaterequal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(30,164,l),
+(30,32,l),
+(479,32,l),
+(479,164,l)
+);
+},
+{
+pos = (10,97);
+ref = greater;
+}
+);
+width = 509;
+}
+);
+metricLeft = greater;
+metricRight = greater;
+unicode = 8805;
+}

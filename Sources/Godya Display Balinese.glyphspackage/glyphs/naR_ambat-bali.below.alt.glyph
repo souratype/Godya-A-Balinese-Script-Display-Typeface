@@ -1,0 +1,30 @@
+{
+glyphname = "naRambat-bali.below.alt";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1391,0);
+},
+{
+name = _nya_gantungan;
+pos = (741,0);
+},
+{
+name = bottom;
+pos = (1293,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-791);
+ref = "naRambat-bali.alt";
+}
+);
+width = 1411;
+}
+);
+}

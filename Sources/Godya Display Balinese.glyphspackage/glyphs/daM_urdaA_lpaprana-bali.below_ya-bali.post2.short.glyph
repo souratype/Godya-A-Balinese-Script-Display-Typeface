@@ -1,0 +1,29 @@
+{
+glyphname = "daMurdaAlpaprana-bali.below_ya-bali.post2.short";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (441,-846);
+},
+{
+name = top;
+pos = (303,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (-1225,0);
+ref = "daMurdaAlpaprana-bali.below";
+},
+{
+alignment = -1;
+ref = "ya-bali.post2.short";
+}
+);
+width = 579;
+}
+);
+}

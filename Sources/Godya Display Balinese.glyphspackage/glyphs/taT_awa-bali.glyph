@@ -1,0 +1,29 @@
+{
+glyphname = "taTawa-bali";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1238,0);
+},
+{
+name = top;
+pos = (627,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "wa-bali";
+},
+{
+pos = (445,0);
+ref = _cecek_bangkiang;
+}
+);
+width = 1248;
+}
+);
+unicode = 6947;
+}

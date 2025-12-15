@@ -1,0 +1,28 @@
+{
+glyphname = "pepet_surang-bali";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-26,800);
+},
+{
+name = _top;
+pos = (744,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = _pepet_komponen;
+},
+{
+pos = (902,-23);
+ref = _surang_komponen;
+}
+);
+width = 889;
+}
+);
+}

@@ -1,0 +1,31 @@
+{
+glyphname = dieresiscomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (197,750);
+},
+{
+name = top;
+pos = (197,927);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = dotaccentcomb;
+},
+{
+alignment = -1;
+pos = (187,0);
+ref = dotaccentcomb;
+}
+);
+width = 374;
+}
+);
+unicode = 776;
+}

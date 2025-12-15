@@ -1,0 +1,17 @@
+{
+glyphname = g;
+kernLeft = O;
+kernRight = G;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = G;
+}
+);
+width = 681;
+}
+);
+unicode = 103;
+}

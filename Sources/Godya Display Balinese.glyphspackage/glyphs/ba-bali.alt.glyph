@@ -1,0 +1,33 @@
+{
+glyphname = "ba-bali.alt";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1527,0);
+},
+{
+name = gantungan_cenik;
+pos = (866,0);
+},
+{
+name = top;
+pos = (933,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "nga-bali";
+},
+{
+pos = (1252,0);
+ref = _belakang_ha_lurus;
+}
+);
+width = 1644;
+}
+);
+}

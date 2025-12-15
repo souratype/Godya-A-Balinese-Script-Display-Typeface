@@ -1,0 +1,29 @@
+{
+glyphname = "zalSasak-bali";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1199,0);
+},
+{
+name = top;
+pos = (627,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "sa-bali";
+},
+{
+pos = (515,0);
+ref = _suwet_sa;
+}
+);
+width = 1239;
+}
+);
+unicode = 6986;
+}

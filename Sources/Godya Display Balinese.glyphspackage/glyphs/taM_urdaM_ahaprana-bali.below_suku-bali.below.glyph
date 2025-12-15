@@ -1,0 +1,50 @@
+{
+category = Mark;
+glyphname = "taMurdaMahaprana-bali.below_suku-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1078,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(853,-523,l),
+(983,-657,o),
+(993,-771,o),
+(993,-944,cs),
+(993,-1170,o),
+(953,-1428,o),
+(843,-1428,cs),
+(735,-1428,o),
+(889,-1095,o),
+(893,-928,c),
+(721,-928,l),
+(703,-1088,o),
+(649,-1200,o),
+(624,-1356,cs),
+(600,-1508,o),
+(691,-1583,o),
+(821,-1583,cs),
+(1152,-1583,o),
+(1158,-1171,o),
+(1158,-944,cs),
+(1158,-842,o),
+(1152,-490,o),
+(947,-385,c)
+);
+},
+{
+ref = "taMurdaMahaprana-bali.below";
+}
+);
+width = 1178;
+}
+);
+subCategory = Nonspacing;
+}

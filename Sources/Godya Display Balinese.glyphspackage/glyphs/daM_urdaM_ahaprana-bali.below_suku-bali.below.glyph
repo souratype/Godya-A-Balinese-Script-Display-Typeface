@@ -1,0 +1,58 @@
+{
+category = Mark;
+glyphname = "daMurdaMahaprana-bali.below_suku-bali.below";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (1039,0);
+},
+{
+name = _nya_gantungan;
+pos = (453,0);
+},
+{
+name = bottom;
+pos = (941,-791);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1042,-1583,o),
+(1018,-1171,o),
+(1008,-884,cs),
+(989,-352,o),
+(910,-209,o),
+(847,-102,c),
+(827,-619,l),
+(840,-701,o),
+(843,-753,o),
+(843,-884,cs),
+(843,-1170,o),
+(843,-1428,o),
+(733,-1428,cs),
+(625,-1428,o),
+(779,-1095,o),
+(783,-928,c),
+(611,-928,l),
+(593,-1088,o),
+(539,-1200,o),
+(514,-1356,cs),
+(490,-1508,o),
+(581,-1583,o),
+(711,-1583,cs)
+);
+},
+{
+ref = "daMurdaMahaprana-bali.below";
+}
+);
+width = 1033;
+}
+);
+subCategory = Nonspacing;
+}

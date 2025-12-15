@@ -1,0 +1,16 @@
+{
+glyphname = "ding-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-593);
+ref = "ulu-bali";
+}
+);
+width = 896;
+}
+);
+unicode = 7014;
+}

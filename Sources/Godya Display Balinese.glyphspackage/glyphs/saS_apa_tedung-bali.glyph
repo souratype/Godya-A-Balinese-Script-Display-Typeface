@@ -1,0 +1,18 @@
+{
+glyphname = "saSapa_tedung-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "pa_tedung-bali";
+},
+{
+pos = (445,0);
+ref = _cecek_bangkiang;
+}
+);
+width = 1585;
+}
+);
+}

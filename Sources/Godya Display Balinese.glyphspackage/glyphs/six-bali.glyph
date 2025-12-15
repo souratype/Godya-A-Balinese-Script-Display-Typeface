@@ -1,0 +1,15 @@
+{
+glyphname = "six-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ekara-bali";
+}
+);
+width = 801;
+}
+);
+unicode = 6998;
+}

@@ -1,0 +1,37 @@
+{
+glyphname = baht;
+kernLeft = H;
+kernRight = B;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = B;
+},
+{
+closed = 1;
+nodes = (
+(169,629,l),
+(364,629,l),
+(364,800,l),
+(169,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(169,-100,l),
+(364,-100,l),
+(364,71,l),
+(169,71,l)
+);
+}
+);
+width = 647;
+}
+);
+metricLeft = H;
+metricRight = B;
+unicode = 3647;
+}

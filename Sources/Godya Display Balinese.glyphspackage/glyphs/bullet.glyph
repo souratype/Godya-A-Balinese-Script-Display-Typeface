@@ -1,0 +1,17 @@
+{
+glyphname = bullet;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-62,189);
+ref = period;
+scale = (1.6455,1.6455);
+}
+);
+width = 361;
+}
+);
+unicode = 8226;
+}

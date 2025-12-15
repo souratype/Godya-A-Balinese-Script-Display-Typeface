@@ -1,0 +1,25 @@
+{
+glyphname = minus;
+kernLeft = plus;
+kernRight = plus;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,412,l),
+(20,267,l),
+(469,267,l),
+(469,412,l)
+);
+}
+);
+width = 489;
+}
+);
+metricLeft = plus;
+metricRight = plus;
+unicode = 8722;
+}

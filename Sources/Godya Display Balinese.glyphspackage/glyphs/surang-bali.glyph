@@ -1,0 +1,31 @@
+{
+glyphname = "surang-bali";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (391,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(757,877,l),
+(506,905,o),
+(265,1105,o),
+(265,1316,c),
+(20,1316,l),
+(20,1048,o),
+(310,785,o),
+(666,744,c)
+);
+}
+);
+width = 777;
+}
+);
+unicode = 6915;
+}

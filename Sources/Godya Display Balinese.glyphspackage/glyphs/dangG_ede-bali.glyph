@@ -1,0 +1,15 @@
+{
+glyphname = "dangGede-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "bisah-bali";
+}
+);
+width = 623;
+}
+);
+unicode = 7018;
+}

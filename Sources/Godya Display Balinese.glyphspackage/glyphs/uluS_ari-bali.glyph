@@ -1,0 +1,30 @@
+{
+glyphname = "uluSari-bali";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (538,800);
+},
+{
+name = right;
+pos = (904,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "ulu-bali";
+},
+{
+pos = (393,2);
+ref = _ulu_cecek;
+}
+);
+width = 896;
+}
+);
+unicode = 6967;
+}

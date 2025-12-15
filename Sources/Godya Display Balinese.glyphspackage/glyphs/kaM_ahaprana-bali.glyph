@@ -1,0 +1,29 @@
+{
+glyphname = "kaMahaprana-bali";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1214,0);
+},
+{
+name = top;
+pos = (574,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "na-bali.alt";
+},
+{
+pos = (1096,0);
+ref = "_kaMahaprana-bali";
+}
+);
+width = 1331;
+}
+);
+unicode = 6932;
+}

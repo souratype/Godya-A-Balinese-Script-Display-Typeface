@@ -1,0 +1,15 @@
+{
+glyphname = "two-bali";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "laLenga-bali";
+}
+);
+width = 1393;
+}
+);
+unicode = 6994;
+}
