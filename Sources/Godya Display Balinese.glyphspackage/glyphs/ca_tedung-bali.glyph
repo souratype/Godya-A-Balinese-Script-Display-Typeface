@@ -1,5 +1,6 @@
 {
 glyphname = "ca_tedung-bali";
+kernRight = tedung;
 layers = (
 {
 guides = (

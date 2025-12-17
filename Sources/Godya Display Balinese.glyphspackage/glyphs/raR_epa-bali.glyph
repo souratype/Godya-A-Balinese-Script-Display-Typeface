@@ -1,5 +1,6 @@
 {
 glyphname = "raRepa-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

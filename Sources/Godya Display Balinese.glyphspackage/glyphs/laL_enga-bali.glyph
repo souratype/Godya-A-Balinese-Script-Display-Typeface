@@ -1,5 +1,6 @@
 {
 glyphname = "laLenga-bali";
+kernLeft = ha;
 layers = (
 {
 layerId = m01;

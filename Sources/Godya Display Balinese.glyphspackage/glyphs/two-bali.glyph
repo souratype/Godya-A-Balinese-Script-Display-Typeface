@@ -1,5 +1,6 @@
 {
 glyphname = "two-bali";
+kernLeft = ha;
 layers = (
 {
 layerId = m01;

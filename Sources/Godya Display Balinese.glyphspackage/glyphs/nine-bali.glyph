@@ -1,5 +1,6 @@
 {
 glyphname = "nine-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

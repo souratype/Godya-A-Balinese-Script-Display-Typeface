@@ -1,5 +1,6 @@
 {
 glyphname = "laLengaTedungMark-bali";
+kernRight = tedung;
 layers = (
 {
 anchors = (

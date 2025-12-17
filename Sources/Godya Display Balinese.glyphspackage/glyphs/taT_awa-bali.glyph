@@ -1,5 +1,6 @@
 {
 glyphname = "taTawa-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

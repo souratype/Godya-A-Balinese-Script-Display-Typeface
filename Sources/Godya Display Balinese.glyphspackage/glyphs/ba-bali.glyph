@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "ba-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

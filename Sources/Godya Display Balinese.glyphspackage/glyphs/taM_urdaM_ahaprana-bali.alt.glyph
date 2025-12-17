@@ -1,5 +1,6 @@
 {
 glyphname = "taMurdaMahaprana-bali.alt";
+kernLeft = ha;
 layers = (
 {
 anchors = (

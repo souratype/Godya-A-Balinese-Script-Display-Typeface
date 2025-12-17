@@ -1,5 +1,7 @@
 {
 glyphname = "baKembang_tedung-bali";
+kernLeft = ha;
+kernRight = tedung;
 layers = (
 {
 anchors = (

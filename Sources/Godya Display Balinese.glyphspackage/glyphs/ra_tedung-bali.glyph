@@ -1,5 +1,6 @@
 {
 glyphname = "ra_tedung-bali";
+kernRight = tedung;
 layers = (
 {
 anchors = (

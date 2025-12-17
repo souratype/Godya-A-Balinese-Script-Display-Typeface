@@ -1,5 +1,7 @@
 {
 glyphname = "khotSasak_tedung-bali";
+kernLeft = na;
+kernRight = tedung;
 layers = (
 {
 anchors = (

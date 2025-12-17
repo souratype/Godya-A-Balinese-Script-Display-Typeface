@@ -1,5 +1,6 @@
 {
 glyphname = "gaGora-bali.alt";
+kernLeft = ha;
 layers = (
 {
 anchors = (

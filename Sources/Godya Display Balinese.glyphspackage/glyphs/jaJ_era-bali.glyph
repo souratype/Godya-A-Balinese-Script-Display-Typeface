@@ -1,5 +1,6 @@
 {
 glyphname = "jaJera-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

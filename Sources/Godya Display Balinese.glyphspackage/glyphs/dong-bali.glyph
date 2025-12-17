@@ -1,5 +1,6 @@
 {
 glyphname = "dong-bali";
+kernRight = tedung;
 layers = (
 {
 layerId = m01;

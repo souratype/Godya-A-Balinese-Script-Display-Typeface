@@ -1,5 +1,6 @@
 {
 glyphname = "veSasak-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

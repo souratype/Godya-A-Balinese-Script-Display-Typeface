@@ -1,5 +1,7 @@
 {
 glyphname = "ikaraTedung-bali";
+kernLeft = ha;
+kernRight = tedung;
 layers = (
 {
 anchors = (

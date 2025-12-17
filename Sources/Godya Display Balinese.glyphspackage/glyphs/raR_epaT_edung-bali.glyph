@@ -1,5 +1,7 @@
 {
 glyphname = "raRepaTedung-bali";
+kernLeft = ha;
+kernRight = tedung;
 layers = (
 {
 layerId = m01;

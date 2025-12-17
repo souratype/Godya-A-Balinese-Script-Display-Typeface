@@ -1,5 +1,7 @@
 {
 glyphname = "jaJera_tedung-bali";
+kernLeft = ha;
+kernRight = tedung;
 layers = (
 {
 layerId = m01;

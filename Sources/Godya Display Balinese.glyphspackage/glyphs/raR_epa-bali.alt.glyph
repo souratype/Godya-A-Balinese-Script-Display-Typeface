@@ -1,5 +1,6 @@
 {
 glyphname = "raRepa-bali.alt";
+kernLeft = ha;
 layers = (
 {
 anchors = (

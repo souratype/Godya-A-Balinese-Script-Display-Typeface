@@ -1,5 +1,6 @@
 {
 glyphname = "tzirSasak-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

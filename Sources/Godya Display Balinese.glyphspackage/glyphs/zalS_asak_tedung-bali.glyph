@@ -1,5 +1,6 @@
 {
 glyphname = "zalSasak_tedung-bali";
+kernRight = tedung;
 layers = (
 {
 layerId = m01;

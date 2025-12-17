@@ -1,5 +1,6 @@
 {
 glyphname = "na-bali.alt";
+kernLeft = na;
 layers = (
 {
 anchors = (

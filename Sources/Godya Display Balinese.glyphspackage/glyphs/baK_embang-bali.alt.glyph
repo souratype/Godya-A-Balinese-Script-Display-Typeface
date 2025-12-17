@@ -1,5 +1,6 @@
 {
 glyphname = "baKembang-bali.alt";
+kernLeft = ha;
 layers = (
 {
 anchors = (

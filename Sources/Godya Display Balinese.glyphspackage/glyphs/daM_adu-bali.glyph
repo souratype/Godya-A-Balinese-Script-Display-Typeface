@@ -1,5 +1,6 @@
 {
 glyphname = "daMadu-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

@@ -1,5 +1,6 @@
 {
 glyphname = "caLaca_tedung-bali";
+kernRight = tedung;
 layers = (
 {
 anchors = (

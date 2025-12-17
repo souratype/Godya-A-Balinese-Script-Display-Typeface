@@ -1,5 +1,6 @@
 {
 glyphname = "ikara-bali";
+kernLeft = ha;
 layers = (
 {
 anchors = (

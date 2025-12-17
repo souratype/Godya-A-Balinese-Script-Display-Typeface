@@ -1,5 +1,7 @@
 {
 glyphname = "nya-bali.alt";
+kernLeft = ha;
+kernRight = tedung;
 layers = (
 {
 anchors = (

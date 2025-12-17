@@ -213,6 +213,45 @@ veSasak-bali.below
 
 ";
 name = MeetsGantunganAlt;
+},
+{
+code = "ha-bali.below
+na-bali.below
+naRambat-bali.below
+ca-bali.below
+caLaca-bali.below
+ra-bali.below
+ka-bali.below
+kaMahaprana-bali.below
+kafSasak-bali.below
+da-bali.below
+daMadu-bali.below
+daMurdaAlpaprana-bali.below
+daMurdaMahaprana-bali.below
+ta-bali.below
+taMurdaMahaprana-bali.below
+taLatik-bali.below
+taTawa-bali.below
+tzirSasak-bali.below
+saSaga-bali.below
+asyuraSasak-bali.below
+wa-bali.below
+wa-bali.below2
+veSasak-bali.below
+la-bali.below
+ma-bali.below
+ga-bali.below
+gaGora-bali.below
+ba-bali.below
+baKembang-bali.below
+nga-bali.below
+ja-bali.below
+nya-bali.below
+
+
+
+";
+name = Gantungan;
 }
 );
 date = "2025-10-24 09:24:13 +0000";
@@ -234,6 +273,9 @@ code = "feature ss01;
 feature ss02;
 feature ss03;
 feature calt;
+feature blwf;
+feature pstf;
+feature psts;
 ";
 tag = aalt;
 },
@@ -265,6 +307,20 @@ script bali;
 lookup ccmp_bali_1;
 ";
 tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub L A by L_A.liga;
+sub L E by L_E.liga;
+sub L I by L_I.liga;
+sub L R by L_R.liga;
+sub R O by R_O.liga;
+sub S S by S_S.liga;
+sub T H by T_H.liga;
+sub T O by T_O.liga;
+";
+tag = liga;
 },
 {
 automatic = 1;
@@ -320,20 +376,6 @@ sub [@GantunganNeedsAlt]' [@UluningAksara] [@MeetsGantunganAlt] by [@GantunganAl
 tag = calt;
 },
 {
-automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub L A by L_A.liga;
-sub L E by L_E.liga;
-sub L I by L_I.liga;
-sub L R by L_R.liga;
-sub R O by R_O.liga;
-sub S S by S_S.liga;
-sub T H by T_H.liga;
-sub T O by T_O.liga;
-";
-tag = liga;
-},
-{
 code = "sub adegadeg-bali ha-bali by ha-bali.below;
 sub adegadeg-bali na-bali by na-bali.below;
 sub adegadeg-bali naRambat-bali by naRambat-bali.below;
@@ -364,7 +406,14 @@ sub adegadeg-bali ba-bali by ba-bali.below;
 sub adegadeg-bali baKembang-bali by baKembang-bali.below;
 sub adegadeg-bali nga-bali by nga-bali.below;
 sub adegadeg-bali ja-bali by ja-bali.below;
-sub adegadeg-bali nya-bali by nya-bali.below;";
+sub adegadeg-bali nya-bali by nya-bali.below;
+
+sub laLengaMark-bali by la-bali.below pepet-bali;
+sub laLengaTedungMark-bali by la-bali.below pepet-bali tedung-bali;
+
+sub [@Gantungan] wa-bali.below' by wa-bali.below2;
+sub [@Gantungan] suku-bali' by suku-bali.below;
+";
 tag = blwf;
 },
 {
@@ -378,6 +427,109 @@ sub adegadeg-bali efSasak-bali by efSasak-bali.post;
 sub adegadeg-bali jaJera-bali by jaJera-bali.post;
 ";
 tag = pstf;
+},
+{
+code = "sub [@Gantungan] ya-bali.post' by ya-bali.post2;
+
+sub [@Gantungan] ya-bali.post2' suku-bali by ya-bali.post2.short;
+sub [@Gantungan] ya-bali.post2' sukuIlut-bali by ya-bali.post2.short;
+
+sub ya-bali.post' suku-bali by ya-bali.post.short;
+sub ya-bali.post.short suku-bali' by suku-bali.alt;
+sub ya-bali.post' sukuIlut-bali by ya-bali.post.short;
+sub ya-bali.post.short sukuIlut-bali' by sukuIlut-bali.alt;
+
+sub ya-bali.post2' suku-bali by ya-bali.post2.short;
+sub ya-bali.post2.short suku-bali' by suku-bali.alt;
+sub ya-bali.post2' sukuIlut-bali by ya-bali.post2.short;
+sub ya-bali.post2.short sukuIlut-bali' by sukuIlut-bali.alt;";
+tag = psts;
+},
+{
+code = "sub wa-bali tedung-bali by wa_tedung-bali ;
+sub ha-bali tedung-bali by ha_tedung-bali ;
+sub na-bali tedung-bali by na_tedung-bali ;
+sub naRambat-bali tedung-bali by naRambat_tedung-bali ;
+sub ca-bali tedung-bali by ca_tedung-bali ;
+sub caLaca-bali tedung-bali by caLaca_tedung-bali ;
+sub ra-bali tedung-bali by ra_tedung-bali ;
+sub ka-bali tedung-bali by ka_tedung-bali ;
+sub kafSasak-bali tedung-bali by kafSasak_tedung-bali ;
+sub khotSasak-bali tedung-bali by khotSasak_tedung-bali ;
+sub da-bali tedung-bali by da_tedung-bali ;
+sub daMadu-bali tedung-bali by daMadu_tedung-bali ;
+sub ta-bali tedung-bali by ta_tedung-bali ;
+sub taMurdaMahaprana-bali tedung-bali by taMurdaMahaprana_tedung-bali ;
+sub taLatik-bali tedung-bali by taLatik_tedung-bali ;
+sub taTawa-bali tedung-bali by taTawa_tedung-bali ;
+sub tzirSasak-bali tedung-bali by tzirSasak_tedung-bali ;
+sub sa-bali tedung-bali by sa_tedung-bali ;
+sub saSapa-bali tedung-bali by saSapa_tedung-bali ;
+sub saSaga-bali tedung-bali by saSaga_tedung-bali ;
+sub zalSasak-bali tedung-bali by zalSasak_tedung-bali ;
+sub asyuraSasak-bali tedung-bali by asyuraSasak_tedung-bali ;
+sub veSasak-bali tedung-bali by veSasak_tedung-bali ;
+sub la-bali tedung-bali by la_tedung-bali ;
+sub ma-bali tedung-bali by ma_tedung-bali ;
+sub ga-bali tedung-bali by ga_tedung-bali ;
+sub gaGora-bali tedung-bali by gaGora_tedung-bali ;
+sub ba-bali tedung-bali by ba_tedung-bali ;
+sub baKembang-bali tedung-bali by baKembang_tedung-bali ;
+sub nga-bali tedung-bali by nga_tedung-bali ;
+sub pa-bali tedung-bali by pa_tedung-bali ;
+sub efSasak-bali tedung-bali by efSasak_tedung-bali ;
+sub jaJera-bali tedung-bali by jaJera_tedung-bali ;
+sub ya-bali tedung-bali by ya_tedung-bali ;";
+tag = liga;
+},
+{
+code = "	sub ha-bali.below ya-bali.post2 by ha-bali.below_ya-bali.post2 ;
+	sub naRambat-bali.below ya-bali.post2 by naRambat-bali.below_ya-bali.post2 ;
+	sub ca-bali.below ya-bali.post2 by ca-bali.below_ya-bali.post2 ;
+	sub caLaca-bali.below ya-bali.post2 by caLaca-bali.below_ya-bali.post2 ;
+	sub ka-bali.below ya-bali.post2 by ka-bali.below_ya-bali.post2 ;
+	sub kafSasak-bali.below ya-bali.post2 by kafSasak-bali.below_ya-bali.post2 ;
+	sub da-bali.below ya-bali.post2 by da-bali.below_ya-bali.post2 ;
+	sub daMadu-bali.below ya-bali.post2 by daMadu-bali.below_ya-bali.post2 ;
+	sub daMurdaAlpaprana-bali.below ya-bali.post2 by daMurdaAlpaprana-bali.below_ya-bali.post2 ;
+	sub ta-bali.below ya-bali.post2 by ta-bali.below_ya-bali.post2 ;
+	sub tzirSasak-bali.below ya-bali.post2 by tzirSasak-bali.below_ya-bali.post2 ;
+	sub asyuraSasak-bali.below ya-bali.post2 by asyuraSasak-bali.below_ya-bali.post2 ;
+	sub la-bali.below ya-bali.post2 by la-bali.below_ya-bali.post2 ;
+	sub ma-bali.below ya-bali.post2 by ma-bali.below_ya-bali.post2 ;
+	sub ga-bali.below ya-bali.post2 by ga-bali.below_ya-bali.post2 ;
+	sub gaGora-bali.below ya-bali.post2 by gaGora-bali.below_ya-bali.post2 ;
+	sub ba-bali.below ya-bali.post2 by ba-bali.below_ya-bali.post2 ;
+	sub baKembang-bali.below ya-bali.post2 by baKembang-bali.below_ya-bali.post2 ;
+	sub nga-bali.below ya-bali.post2 by nga-bali.below_ya-bali.post2 ;
+	sub ja-bali.below ya-bali.post2 by ja-bali.below_ya-bali.post2 ;
+	sub saSaga-bali.below ya-bali.post2 by saSaga-bali.below_ya-bali.post2;
+	sub nya-bali.below ya-bali.post2 by nya-bali.below_ya-bali.post2 ;
+
+sub ha-bali.below ya-bali.post2.short by ha-bali.below_ya-bali.post2.short ;
+	sub naRambat-bali.below ya-bali.post2.short  by naRambat-bali.below_ya-bali.post2.short ;
+	sub ca-bali.below ya-bali.post2.short  by ca-bali.below_ya-bali.post2.short ;
+	sub caLaca-bali.below ya-bali.post2.short  by caLaca-bali.below_ya-bali.post2.short ;
+	sub ka-bali.below ya-bali.post2.short  by ka-bali.below_ya-bali.post2.short ;
+	sub kafSasak-bali.below ya-bali.post2.short  by kafSasak-bali.below_ya-bali.post2.short ;
+	sub da-bali.below ya-bali.post2.short by da-bali.below_ya-bali.post2.short ;
+	sub daMadu-bali.below ya-bali.post2.short  by daMadu-bali.below_ya-bali.post2.short ;
+	sub daMurdaAlpaprana-bali.below ya-bali.post2.short  by daMurdaAlpaprana-bali.below_ya-bali.post2.short ;
+	sub ta-bali.below ya-bali.post2.short  by ta-bali.below_ya-bali.post2.short ;
+	sub tzirSasak-bali.below ya-bali.post2.short by tzirSasak-bali.below_ya-bali.post2.short ;
+	sub asyuraSasak-bali.below ya-bali.post2.short  by asyuraSasak-bali.below_ya-bali.post2.short ;
+	sub la-bali.below ya-bali.post2.short  by la-bali.below_ya-bali.post2.short ;	
+	sub ma-bali.below ya-bali.post2.short  by ma-bali.below_ya-bali.post2.short ;
+	sub ga-bali.below ya-bali.post2.short  by ga-bali.below_ya-bali.post2.short ;
+	sub gaGora-bali.below ya-bali.post2.short  by gaGora-bali.below_ya-bali.post2.short ;
+	sub ba-bali.below ya-bali.post2.short  by ba-bali.below_ya-bali.post2.short ;
+	sub baKembang-bali.below ya-bali.post2.short  by baKembang-bali.below_ya-bali.post2.short ;
+	sub nga-bali.below ya-bali.post2.short  by nga-bali.below_ya-bali.post2.short ;
+	sub ja-bali.below ya-bali.post2.short  by ja-bali.below_ya-bali.post2.short ;
+	sub saSaga-bali.below ya-bali.post2.short  by saSaga-bali.below_ya-bali.post2.short ;
+	sub nya-bali.below ya-bali.post2.short  by nya-bali.below_ya-bali.post2.short ;
+";
+tag = rlig;
 }
 );
 fontMaster = (
@@ -493,6 +645,8 @@ m01 = {
 "@MMK_R_Z" = -10;
 "@MMK_R_backslash" = -80;
 "@MMK_R_guilsinglleft" = -20;
+"@MMK_R_ha" = -80;
+"@MMK_R_na" = -20;
 "@MMK_R_question" = -60;
 asterisk = -50;
 hyphen = -10;
@@ -515,6 +669,7 @@ quotedblright = -60;
 "@MMK_R_eight" = 10;
 "@MMK_R_five" = 30;
 "@MMK_R_four" = 10;
+"@MMK_R_ha" = -30;
 "@MMK_R_one" = -10;
 "@MMK_R_question" = -30;
 "@MMK_R_seven" = -30;
@@ -543,6 +698,7 @@ quotedblright = -20;
 "@MMK_R_Z" = -20;
 "@MMK_R_backslash" = -70;
 "@MMK_R_guilsinglleft" = -20;
+"@MMK_R_ha" = -40;
 "@MMK_R_period" = -10;
 "@MMK_R_question" = -40;
 "@MMK_R_slash" = -60;
@@ -603,6 +759,7 @@ quotedblright = 20;
 "@MMK_R_Z" = -30;
 "@MMK_R_backslash" = -30;
 "@MMK_R_guilsinglleft" = 20;
+"@MMK_R_ha" = -10;
 "@MMK_R_period" = -30;
 "@MMK_R_question" = -20;
 "@MMK_R_slash" = -40;
@@ -641,6 +798,8 @@ won = -10;
 "@MMK_R_Z" = -10;
 "@MMK_R_backslash" = -10;
 "@MMK_R_guilsinglleft" = -30;
+"@MMK_R_ha" = -60;
+"@MMK_R_na" = -10;
 "@MMK_R_question" = -30;
 "@MMK_R_slash" = -40;
 asterisk = -20;
@@ -660,6 +819,7 @@ colon = -10;
 "@MMK_R_backslash" = -100;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_guilsinglright" = 30;
+"@MMK_R_ha" = -140;
 "@MMK_R_period" = 20;
 "@MMK_R_question" = -40;
 colon = 30;
@@ -741,6 +901,8 @@ parenright = 0;
 "@MMK_R_Z" = -10;
 "@MMK_R_backslash" = -30;
 "@MMK_R_guilsinglleft" = -20;
+"@MMK_R_ha" = -20;
+"@MMK_R_na" = -10;
 "@MMK_R_question" = -20;
 "@MMK_R_slash" = -30;
 bracketright = -10;
@@ -762,6 +924,7 @@ quotedblleft = -20;
 "@MMK_R_five" = 30;
 "@MMK_R_four" = 10;
 "@MMK_R_guilsinglleft" = -20;
+"@MMK_R_na" = 10;
 "@MMK_R_nine" = 20;
 "@MMK_R_question" = -10;
 "@MMK_R_seven" = 10;
@@ -785,6 +948,7 @@ hyphen = 20;
 "@MMK_R_Z" = -10;
 "@MMK_R_ampersand" = -60;
 "@MMK_R_guilsinglleft" = -70;
+"@MMK_R_na" = -20;
 "@MMK_R_period" = -120;
 "@MMK_R_slash" = -150;
 O = -40;
@@ -819,6 +983,7 @@ quotedblright = 10;
 "@MMK_R_Y" = 20;
 "@MMK_R_Z" = -10;
 "@MMK_R_guilsinglleft" = -10;
+"@MMK_R_na" = -10;
 "@MMK_R_period" = -70;
 "@MMK_R_slash" = -90;
 hyphen = -10;
@@ -839,6 +1004,8 @@ quotedblright = 20;
 "@MMK_R_Z" = -20;
 "@MMK_R_guilsinglleft" = -80;
 "@MMK_R_guilsinglright" = -30;
+"@MMK_R_ha" = -70;
+"@MMK_R_na" = -40;
 "@MMK_R_period" = -10;
 "@MMK_R_question" = -50;
 "@MMK_R_slash" = -40;
@@ -861,11 +1028,14 @@ quotedblright = -10;
 "@MMK_R_V" = 20;
 "@MMK_R_Z" = -20;
 "@MMK_R_guilsinglleft" = -80;
+"@MMK_R_ha" = -40;
+"@MMK_R_na" = -30;
 "@MMK_R_period" = -110;
 "@MMK_R_question" = -10;
 "@MMK_R_slash" = -150;
 colon = -20;
 hyphen = -80;
+"naRambat_tedung-bali" = 0;
 quotedblbase = -130;
 quotedblright = 10;
 };
@@ -883,6 +1053,8 @@ quotedblright = 10;
 "@MMK_R_Z" = -10;
 "@MMK_R_backslash" = -10;
 "@MMK_R_guilsinglleft" = -50;
+"@MMK_R_ha" = -30;
+"@MMK_R_na" = -20;
 "@MMK_R_question" = -10;
 "@MMK_R_slash" = -50;
 hyphen = -10;
@@ -939,6 +1111,7 @@ won = -20;
 "@MMK_R_four" = 20;
 "@MMK_R_guilsinglleft" = 20;
 "@MMK_R_guilsinglright" = 10;
+"@MMK_R_ha" = -30;
 "@MMK_R_one" = 10;
 "@MMK_R_question" = -20;
 "@MMK_R_seven" = -10;
@@ -1139,6 +1312,7 @@ sterling = -10;
 "@MMK_R_five" = 20;
 "@MMK_R_four" = 10;
 "@MMK_R_guilsinglleft" = 20;
+"@MMK_R_ha" = -20;
 "@MMK_R_nine" = 10;
 "@MMK_R_one" = -10;
 "@MMK_R_question" = -10;
@@ -1173,6 +1347,22 @@ sterling = 10;
 "@MMK_R_two" = -10;
 "@MMK_R_zero" = -20;
 };
+"@MMK_L_tedung" = {
+"@MMK_R_A" = -30;
+"@MMK_R_O" = 20;
+"@MMK_R_S" = 10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -10;
+"@MMK_R_X" = -60;
+"@MMK_R_Y" = -60;
+"@MMK_R_Z" = -30;
+"@MMK_R_four" = 20;
+"@MMK_R_seven" = -20;
+"@MMK_R_six" = 20;
+"@MMK_R_two" = 10;
+"@MMK_R_zero" = 20;
+"naRambat_tedung-bali" = 20;
+};
 "@MMK_L_three" = {
 "@MMK_R_S" = 30;
 "@MMK_R_backslash" = -20;
@@ -1181,6 +1371,7 @@ sterling = 10;
 "@MMK_R_four" = 20;
 "@MMK_R_guilsinglleft" = 10;
 "@MMK_R_guilsinglright" = 0;
+"@MMK_R_ha" = -30;
 "@MMK_R_one" = 10;
 "@MMK_R_question" = -20;
 "@MMK_R_seven" = -10;
@@ -1203,6 +1394,7 @@ sterling = 10;
 "@MMK_R_five" = 20;
 "@MMK_R_four" = 10;
 "@MMK_R_guilsinglright" = 30;
+"@MMK_R_ha" = -20;
 "@MMK_R_nine" = 10;
 "@MMK_R_one" = 10;
 "@MMK_R_period" = 20;
