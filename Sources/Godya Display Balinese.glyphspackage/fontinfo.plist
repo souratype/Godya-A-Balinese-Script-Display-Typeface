@@ -101,56 +101,6 @@ efSasak-bali.post.alt
 name = AksaraAlt;
 },
 {
-code = "na-bali.below
-suku-bali
-sukuIlut-bali
-ra-bali.below
-raRepaMark-bali
-wa-bali.below
-wa-bali.below2
-suku-bali.below
-sukuIlut-bali.below
-sa-bali.post
-saSapa-bali.post
-zalSasak-bali.post
-taTawa-bali.below
-veSasak-bali.below
-
-
-";
-name = MeetsAksaraAlt;
-},
-{
-code = "ulu-bali
-ulu_uluRicem-bali
-ulu_uluCandra-bali
-ulu_cecek-bali
-ulu_surang-bali
-uluSari-bali
-uluSari_uluRicem-bali
-uluSari_uluCandra-bali
-uluSari_cecek-bali
-uluSari_surang-bali
-uluRicem-bali
-uluCandra-bali
-pepet-bali
-pepet_cecek-bali
-pepet_surang-bali
-cecek-bali
-surang-bali
-rerekan-bali
-rerekan_cecek-bali
-rerekan_surang-bali
-rerekan_ulu_cecek-bali
-rerekan_ulu_surang-bali
-rerekan_uluSari_cecek-bali
-rerekan_uluSari_surang-bali
-rerekan_pepet_cecek-bali
-rerekan_pepet_surang-bali
-";
-name = UluningAksara;
-},
-{
 code = "ha-bali.below
 naRambat-bali.below
 ca-bali.below
@@ -200,6 +150,26 @@ name = GantunganAlt;
 code = "na-bali.below
 suku-bali
 sukuIlut-bali
+ra-bali.below
+raRepaMark-bali
+wa-bali.below
+wa-bali.below2
+suku-bali.below
+sukuIlut-bali.below
+sa-bali.post
+saSapa-bali.post
+zalSasak-bali.post
+taTawa-bali.below
+veSasak-bali.below
+
+
+";
+name = MeetsAksaraAlt;
+},
+{
+code = "na-bali.below
+suku-bali
+sukuIlut-bali
 wa-bali.below
 wa-bali.below2
 suku-bali.below
@@ -213,6 +183,36 @@ veSasak-bali.below
 
 ";
 name = MeetsGantunganAlt;
+},
+{
+code = "ulu-bali
+ulu_uluRicem-bali
+ulu_uluCandra-bali
+ulu_cecek-bali
+ulu_surang-bali
+uluSari-bali
+uluSari_uluRicem-bali
+uluSari_uluCandra-bali
+uluSari_cecek-bali
+uluSari_surang-bali
+uluRicem-bali
+uluCandra-bali
+pepet-bali
+pepet_cecek-bali
+pepet_surang-bali
+cecek-bali
+surang-bali
+rerekan-bali
+rerekan_cecek-bali
+rerekan_surang-bali
+rerekan_ulu_cecek-bali
+rerekan_ulu_surang-bali
+rerekan_uluSari_cecek-bali
+rerekan_uluSari_surang-bali
+rerekan_pepet_cecek-bali
+rerekan_pepet_surang-bali
+";
+name = UluningAksara;
 },
 {
 code = "ha-bali.below
@@ -252,6 +252,270 @@ nya-bali.below
 
 ";
 name = Gantungan;
+},
+{
+code = "ya-bali.post
+ya-bali.post.short
+ya-bali.post2
+ya-bali.post2.short
+ra_ya-bali.post
+ra_ya_tedung-bali.post
+sa-bali.post
+sa-bali.post.alt
+saSapa-bali.post
+saSapa-bali.post.alt
+zalSasak-bali.post
+zalSasak-bali.post.alt
+pa-bali.post
+pa-bali.post.alt
+paKapal-bali.post
+efSasak-bali.post
+efSasak-bali.post.alt
+jaJera-bali.post 
+    
+";
+name = Gempelan;
+},
+{
+code = "ekara-bali
+ekara-bali.alt
+ukara-bali
+paKapal-bali
+daMurdaMahaprana-bali 
+";
+name = Aksara1;
+},
+{
+code = "ja-bali
+ja-bali.alt
+ra-bali
+ra-bali.alt 
+pa-bali.post
+pa-bali.post.alt
+efSasak-bali.post
+efSasak-bali.post.alt
+sa-bali.post
+sa-bali.post.alt
+saSapa-bali.post
+saSapa-bali.post.alt
+zalSasak-bali.post
+zalSasak-bali.post.alt
+";
+name = Aksara2;
+},
+{
+code = "taTawa-bali
+taTawa-bali.alt
+wa-bali
+wa-bali.alt
+veSasak-bali
+veSasak-bali.alt
+raRepa-bali
+raRepa-bali.alt
+saSapa-bali
+saSapa-bali.alt
+pa-bali
+pa-bali.alt
+efSasak-bali
+efSasak-bali.alt
+sa-bali
+sa-bali.alt
+zalSasak-bali
+zalSasak-bali.alt
+ca-bali
+ca-bali.alt
+ma-bali
+ma-bali.alt 
+";
+name = Aksara3;
+},
+{
+code = "na-bali
+na-bali.alt
+baKembang-bali
+baKembang-bali.alt
+da-bali
+da-bali.alt
+kaMahaprana-bali
+";
+name = Aksara4;
+},
+{
+code = "taMurdaMahaprana-bali
+taMurdaMahaprana-bali.alt
+taLatik-bali
+taLatik-bali.alt
+nga-bali
+nga-bali.alt
+ya-bali
+ya-bali.alt
+ikara-bali
+ikara-bali.alt
+okara-bali
+laLenga-bali
+daMadu-bali
+daMadu-bali.alt
+daMurdaAlpaprana-bali
+daMurdaAlpaprana-bali.alt
+";
+name = Aksara5;
+},
+{
+code = "caLaca-bali
+caLaca-bali.alt
+naRambat-bali
+naRambat-bali.alt
+";
+name = Aksara6;
+},
+{
+code = "ha-bali
+ha-bali.alt
+ta-bali
+ta-bali.alt
+tzirSasak-bali
+tzirSasak-bali.alt
+";
+name = Aksara7;
+},
+{
+code = "kafSasak-bali
+kafSasak-bali.alt
+asyuraSasak-bali
+asyuraSasak-bali.alt
+aikara-bali
+jaJera-bali
+";
+name = Aksara8;
+},
+{
+code = "khotSasak-bali
+khotSasak-bali.alt
+";
+name = Aksara9;
+},
+{
+code = "da-bali.below
+da-bali.below.alt
+ma-bali.below
+ma-bali.below.alt
+ja-bali.below
+ja-bali.below.alt
+daMurdaMahaprana-bali.below
+daMurdaMahaprana-bali.below_suku-bali.below
+";
+name = Gantungan1;
+},
+{
+code = "taMurdaMahaprana-bali.below
+taMurdaMahaprana-bali.below_suku-bali.below
+taTawa-bali.below
+wa-bali.below
+veSasak-bali.below
+na-bali.below
+";
+name = Gantungan2;
+},
+{
+code = "caLaca-bali.below
+caLaca-bali.below_suku-bali.below
+ha-bali.below
+ha-bali.below.alt
+daMurdaAlpaprana-bali.below
+daMurdaAlpaprana-bali.below.alt
+daMadu-bali.below
+daMadu-bali.below.alt
+taLatik-bali.below
+taLatik-bali.below_suku-bali.below
+ta-bali.below
+ta-bali.below.alt
+";
+name = Gantungan3;
+},
+{
+code = "baKembang-bali.below
+baKembang-bali.below.alt
+saSaga-bali.below
+saSaga-bali.below.alt
+ga-bali.below
+ga-bali.below.alt
+ka-bali.below
+ka-bali.below.alt
+kaMahaprana-bali.below
+";
+name = Gantungan4;
+},
+{
+code = "nga-bali.below
+nga-bali.below.alt
+";
+name = Gantungan5;
+},
+{
+code = "tzirSasak-bali.below
+tzirSasak-bali.below.alt
+naRambat-bali.below
+naRambat-bali.below.alt
+kafSasak-bali.below
+kafSasak-bali.below.alt
+ca-bali.below
+ca-bali.below.alt
+la-bali.below
+";
+name = Gantungan6;
+},
+{
+code = "ba-bali.below
+";
+name = Gantungan7;
+},
+{
+code = "la-bali.below_suku-bali.below
+
+";
+name = Gantungan8;
+},
+{
+code = "nya-bali.below
+nya-bali.below.alt
+gaGora-bali.below
+gaGora-bali.below.alt
+asyuraSasak-bali.below
+asyuraSasak-bali.below.alt
+laLengaTedungMark-bali
+
+";
+name = Gantungan9;
+},
+{
+code = "ba-bali.below_suku-bali.below
+";
+name = Gantungan10;
+},
+{
+code = "ra-bali.below1
+raRepaMark-bali.below1
+ra-bali.below2
+raRepaMark-bali.below2
+ra-bali.below3
+raRepaMark-bali.below3
+ra-bali.below4
+raRepaMark-bali.below4
+ra-bali.below5
+raRepaMark-bali.below5 
+ra-bali.below
+raRepaMark-bali
+ra-bali.belowGempelan
+raRepaMark-bali.belowGempelan
+ra-bali.below.ss01
+raRepaMark-bali.ss01
+ra-bali.below.ss02
+raRepaMark-bali.ss02
+ra-bali.below.ss03
+raRepaMark-bali.ss03
+ 
+";
+name = AllGuwung;
 }
 );
 date = "2025-10-24 09:24:13 +0000";
@@ -276,6 +540,7 @@ feature calt;
 feature blwf;
 feature pstf;
 feature psts;
+feature blws;
 ";
 tag = aalt;
 },
@@ -372,7 +637,27 @@ code = "sub [@AksaraNeedsAlt]' [@MeetsAksaraAlt] by [@AksaraAlt];
 sub [@AksaraNeedsAlt]' [@UluningAksara] [@MeetsAksaraAlt] by [@AksaraAlt];
 
 sub [@GantunganNeedsAlt]' [@MeetsGantunganAlt] by [@GantunganAlt];
-sub [@GantunganNeedsAlt]' [@UluningAksara] [@MeetsGantunganAlt] by [@GantunganAlt];";
+sub [@GantunganNeedsAlt]' [@UluningAksara] [@MeetsGantunganAlt] by [@GantunganAlt];
+
+sub [@Aksara1 @Aksara2 @Aksara3 @Aksara4 @Aksara5 @Aksara6 @Aksara7 @Aksara8] [@Gantungan1] ra-bali.below' by ra-bali.below1;
+
+sub [@Aksara1] [@Gantungan2] ra-bali.below' by ra-bali.below3;
+
+sub [@Aksara2 @Aksara3 @Aksara4 @Aksara5 @Aksara6 @Aksara7 @Aksara8] [@Gantungan1 @Gantungan2] ra-bali.below' by ra-bali.below1;
+
+sub [@Aksara2 @Aksara3 @Aksara4 @Aksara5 @Aksara6 @Aksara7 ka-bali ga-bali saSaga-bali ba-bali la-bali gaGora-bali] [@Gantungan7 la-bali.below] ra-bali.below' by ra-bali.below3;
+
+sub [nya-bali nya-bali.alt] [@Gantungan1 @Gantungan2] ra-bali.below' by ra-bali.below3;
+
+sub [@Aksara1] [@Gantungan7] ra-bali.below' by ra-bali.below4;
+sub [@Aksara1] [la-bali.below] ra-bali.below' by ra-bali.below3;
+
+sub [nya-bali nya-bali.alt] [@Gantungan3 @Gantungan4] ra-bali.below' by ra-bali.below4; 
+
+sub [@Aksara1 @Aksara2 @Aksara3 @Aksara4 @Aksara5 @Aksara6 @Aksara7 @Aksara8 ka-bali ga-bali ba-bali la-bali saSaga-bali nya-bali gaGora-bali] [@Gantungan9] ra-bali.below' by ra-bali.below5;
+
+sub [nya-bali nya-bali.alt] [@Gantungan5 @Gantungan6 @Gantungan7 @Gantungan8 @Gantungan9] ra-bali.below' by ra-bali.below5;
+";
 tag = calt;
 },
 {
@@ -427,6 +712,23 @@ sub adegadeg-bali efSasak-bali by efSasak-bali.post;
 sub adegadeg-bali jaJera-bali by jaJera-bali.post;
 ";
 tag = pstf;
+},
+{
+code = "sub @Gantungan ra-bali.below' by ra-bali.below2;
+sub @Gantungan raRepaMark-bali' by raRepaMark-bali.below2;
+
+sub [@Gempelan] ra-bali.below' by ra-bali.belowGempelan;
+sub [@Gempelan] raRepaMark-bali' by raRepaMark-bali.belowGempelan;
+
+sub [caLaca-bali.alt naRambat-bali.alt ha-bali.alt ta-bali.alt tzirSasak-bali.alt] ra-bali.below' by ra-bali.below.ss01;
+sub [caLaca-bali.alt naRambat-bali.alt ha-bali.alt ta-bali.alt tzirSasak-bali.alt] raRepaMark-bali' by raRepaMark-bali.ss01;
+
+sub [ka-bali.alt ga-bali.alt saSaga-bali.alt ba-bali.alt la-bali.alt nya-bali.alt] ra-bali.below' by ra-bali.below.ss02;
+sub [ka-bali.alt ga-bali.alt saSaga-bali.alt ba-bali.alt la-bali.alt nya-bali.alt] raRepaMark-bali' by raRepaMark-bali.ss02;
+
+sub [gaGora-bali.alt kafSasak-bali.alt asyuraSasak-bali.alt khotSasak-bali.alt] ra-bali.below' by ra-bali.below.ss03;
+sub [gaGora-bali.alt kafSasak-bali.alt asyuraSasak-bali.alt khotSasak-bali.alt] raRepaMark-bali' by raRepaMark-bali.ss03;";
+tag = blws;
 },
 {
 code = "sub [@Gantungan] ya-bali.post' by ya-bali.post2;
@@ -485,6 +787,9 @@ sub pa-bali tedung-bali by pa_tedung-bali ;
 sub efSasak-bali tedung-bali by efSasak_tedung-bali ;
 sub jaJera-bali tedung-bali by jaJera_tedung-bali ;
 sub ya-bali tedung-bali by ya_tedung-bali ;
+
+sub @AllGuwung suku-bali' by suku-bali.below;
+sub @AllGuwung suku-bali.below' by suku-bali.alt;
 
 sub wa-bali.below suku-bali' by suku-bali.below;
 sub wa-bali.below suku-bali.below' by suku-bali.alt;
@@ -558,6 +863,9 @@ sub caLaca-bali.below suku-bali.below by caLaca-bali.below_suku-bali.below;
 sub daMurdaMahaprana-bali.below suku-bali.below by daMurdaMahaprana-bali.below_suku-bali.below;
 sub taMurdaMahaprana-bali.below suku-bali.below by taMurdaMahaprana-bali.below_suku-bali.below;
 sub taLatik-bali.below suku-bali.below by taLatik-bali.below_suku-bali.below;
+
+sub ra_ya-bali.post suku-bali by ra_ya_suku-bali.post;
+sub ra_ya-bali.post sukuIlut-bali by ra_ya_sukuIlut-bali.post;
 ";
 tag = rlig;
 }
