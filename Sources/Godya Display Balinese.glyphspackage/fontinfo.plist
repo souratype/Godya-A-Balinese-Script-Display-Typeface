@@ -516,6 +516,167 @@ raRepaMark-bali.ss03
  
 ";
 name = AllGuwung;
+},
+{
+code = "laLenga-bali
+aikara-bali
+jaJera-bali
+ya-bali.post
+ya-bali.post.short
+ya-bali.post2
+ya-bali.post2.short
+ha-bali.below_ya-bali.post2
+naRambat-bali.below_ya-bali.post2
+ca-bali.below_ya-bali.post2
+caLaca-bali.below_ya-bali.post2
+ka-bali.below_ya-bali.post2
+kafSasak-bali.below_ya-bali.post2
+da-bali.below_ya-bali.post2
+daMadu-bali.below_ya-bali.post2
+daMurdaAlpaprana-bali.below_ya-bali.post2
+ta-bali.below_ya-bali.post2
+tzirSasak-bali.below_ya-bali.post2
+saSaga-bali.below_ya-bali.post2
+asyuraSasak-bali.below_ya-bali.post2
+la-bali.below_ya-bali.post2
+ma-bali.below_ya-bali.post2
+ga-bali.below_ya-bali.post2
+gaGora-bali.below_ya-bali.post2
+ba-bali.below_ya-bali.post2
+baKembang-bali.below_ya-bali.post2
+nga-bali.below_ya-bali.post2
+ja-bali.below_ya-bali.post2
+nya-bali.below_ya-bali.post2
+ra-bali.below1
+ra-bali.below2
+ra-bali.below3
+ra-bali.below4
+ra-bali.below5
+two-bali
+five-bali
+ha-bali.below
+na-bali.below
+naRambat-bali.below
+ca-bali.below
+caLaca-bali.below
+ra-bali.below
+ra-bali.below.ss01
+ra-bali.below.ss02
+ra-bali.below.ss03
+ka-bali.below
+kaMahaprana-bali.below
+kafSasak-bali.below
+daMadu-bali.below
+daMurdaAlpaprana-bali.below
+ta-bali.below
+taTawa-bali.below
+tzirSasak-bali.below
+saSaga-bali.below
+asyuraSasak-bali.below
+wa-bali.below
+veSasak-bali.below
+la-bali.below
+ga-bali.below
+gaGora-bali.below
+ba-bali.below
+baKembang-bali.below
+nga-bali.below
+suku-bali
+sukuIlut-bali
+raRepaMark-bali
+ra-bali.belowGempelan
+raRepaMark-bali.belowGempelan
+adegadeg-bali
+ra_ya-bali.post
+ra_ya_tedung-bali.post
+jaJera-bali.post
+bisah-bali
+taling-bali
+talingRepa-bali
+taMurdaMahaprana-bali.below
+taLatik-bali.below
+suku-bali.below
+sukuIlut-bali.below
+nya-bali.below
+ra_ya_suku-bali.post
+ra_ya_sukuIlut-bali.post
+ra-bali.belowGempelan
+wa-bali.below2
+
+";
+name = TundunAksara;
+},
+{
+code = "suku-bali.alt
+";
+name = Tundun2;
+},
+{
+code = "wa-bali.below
+taTawa-bali.below
+veSasak-bali.below
+na-bali.below
+ra-bali.below
+raRepaMark-bali
+ra-bali.below.ss01
+raRepaMark-bali.ss01
+ra-bali.below.ss02
+raRepaMark-bali.ss02
+ra-bali.below.ss03
+raRepaMark-bali.ss03
+ra-bali.belowGempelan
+raRepaMark-bali.belowGempelan
+ya-bali.post.short
+";
+name = MeetSukuAlt;
+},
+{
+code = "ra-bali.below1
+ra-bali.below2
+ra-bali.below3
+ra-bali.below4
+ra-bali.below5
+wa-bali.below2
+ya-bali.post2.short
+ha-bali.below_ya-bali.post2.short
+naRambat-bali.below_ya-bali.post2.short
+ca-bali.below_ya-bali.post2.short
+caLaca-bali.below_ya-bali.post2.short
+ka-bali.below_ya-bali.post2.short
+kafSasak-bali.below_ya-bali.post2.short
+da-bali.below_ya-bali.post2.short
+daMadu-bali.below_ya-bali.post2.short
+daMurdaAlpaprana-bali.below_ya-bali.post2.short
+ta-bali.below_ya-bali.post2.short
+tzirSasak-bali.below_ya-bali.post2.short
+saSaga-bali.below_ya-bali.post2.short
+asyuraSasak-bali.below_ya-bali.post2.short
+la-bali.below_ya-bali.post2.short
+ma-bali.below_ya-bali.post2.short
+ga-bali.below_ya-bali.post2.short
+gaGora-bali.below_ya-bali.post2.short
+ba-bali.below_ya-bali.post2.short
+baKembang-bali.below_ya-bali.post2.short
+nga-bali.below_ya-bali.post2.short
+ja-bali.below_ya-bali.post2.short
+nya-bali.below_ya-bali.post2.short
+";
+name = MeetSukuAlt2;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Extension Kerning";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2025-10-24 09:24:13 +0000";
@@ -727,7 +888,8 @@ sub [ka-bali.alt ga-bali.alt saSaga-bali.alt ba-bali.alt la-bali.alt nya-bali.al
 sub [ka-bali.alt ga-bali.alt saSaga-bali.alt ba-bali.alt la-bali.alt nya-bali.alt] raRepaMark-bali' by raRepaMark-bali.ss02;
 
 sub [gaGora-bali.alt kafSasak-bali.alt asyuraSasak-bali.alt khotSasak-bali.alt] ra-bali.below' by ra-bali.below.ss03;
-sub [gaGora-bali.alt kafSasak-bali.alt asyuraSasak-bali.alt khotSasak-bali.alt] raRepaMark-bali' by raRepaMark-bali.ss03;";
+sub [gaGora-bali.alt kafSasak-bali.alt asyuraSasak-bali.alt khotSasak-bali.alt] raRepaMark-bali' by raRepaMark-bali.ss03;
+";
 tag = blws;
 },
 {
@@ -868,10 +1030,460 @@ sub ra_ya-bali.post suku-bali by ra_ya_suku-bali.post;
 sub ra_ya-bali.post sukuIlut-bali by ra_ya_sukuIlut-bali.post;
 ";
 tag = rlig;
+},
+{
+code = "lookup Tundun-Aksara-Gantungan {
+	pos @TundunAksara @Aksara1' <100 0 100 0> @Gantungan3;
+	pos @TundunAksara @Aksara1' <200 0 200 0> @Gantungan4;
+	pos @TundunAksara @Aksara1' <250 0 250 0> @Gantungan5;
+	pos @TundunAksara @Aksara1' <350 0 350 0> @Gantungan6;
+	pos @TundunAksara @Aksara1' <500 0 500 0> @Gantungan7;
+	pos @TundunAksara @Aksara1' <600 0 600 0> @Gantungan8;
+	pos @TundunAksara @Aksara1' <850 0 850 0> @Gantungan9;
+	pos @TundunAksara @Aksara1' <500 0 500 0> @Gantungan10;
+
+	pos @TundunAksara @Aksara2' <0 0 0 0> @Gantungan2;
+	pos @TundunAksara @Aksara2' <250 0 250 0> @Gantungan3;
+	pos @TundunAksara @Aksara2' <300 0 300 0> @Gantungan4;
+	pos @TundunAksara @Aksara2' <280 0 280 0> @Gantungan5;
+	pos @TundunAksara @Aksara2' <450 0 450 0> @Gantungan6;
+	pos @TundunAksara @Aksara2' <550 0 550 0> @Gantungan7;
+	pos @TundunAksara @Aksara2' <650 0 650 0> @Gantungan8;
+	pos @TundunAksara @Aksara2' <900 0 900 0> @Gantungan9;
+	pos @TundunAksara @Aksara2' <550 0 550 0> @Gantungan10;
+
+	pos @TundunAksara @Aksara3' <50 0 50 0> @Gantungan3 ;
+	pos @TundunAksara @Aksara3' <100 0 100 0> @Gantungan4 ;
+	pos @TundunAksara @Aksara3' <140 0 140 0> @Gantungan5 ;
+	pos @TundunAksara @Aksara3' <230 0 230 0> @Gantungan6 ;
+	pos @TundunAksara @Aksara3' <380 0 380 0> @Gantungan7 ;
+	pos @TundunAksara @Aksara3' <500 0 500 0> @Gantungan8 ;
+	pos @TundunAksara @Aksara3' <700 0 700 0> @Gantungan9 ;
+	pos @TundunAksara @Aksara3' <400 0 400 0> @Gantungan10 ;
+
+	pos @TundunAksara @Aksara4' <50 0 50 0> @Gantungan4 ;
+	pos @TundunAksara @Aksara4' <50 0 50 0> @Gantungan5 ;
+	pos @TundunAksara @Aksara4' <180 0 180 0> @Gantungan6 ;
+	pos @TundunAksara @Aksara4' <350 0 350 0> @Gantungan7 ;
+	pos @TundunAksara @Aksara4' <450 0 450 0> @Gantungan8 ;
+	pos @TundunAksara @Aksara4' <650 0 650 0> @Gantungan9 ;
+	pos @TundunAksara @Aksara4' <350 0 350 0> @Gantungan10 ;
+
+	pos @TundunAksara @Aksara5' <130 0 130 0> @Gantungan6 ;
+	pos @TundunAksara @Aksara5' <260 0 260 0> @Gantungan7 ;
+	pos @TundunAksara @Aksara5' <350 0 350 0> @Gantungan8 ;
+	pos @TundunAksara @Aksara5' <600 0 600 0> @Gantungan9 ;
+	pos @TundunAksara @Aksara5' <250 0 250 0> @Gantungan10 ;
+
+	pos @TundunAksara @Aksara6' <40 0 40 0> @Gantungan6 ;
+	pos @TundunAksara @Aksara6' <200 0 200 0> @Gantungan7 ;
+	pos @TundunAksara @Aksara6' <300 0 300 0> @Gantungan8 ;
+	pos @TundunAksara @Aksara6' <500 0 500 0> @Gantungan9 ;
+	pos @TundunAksara @Aksara6' <200 0 200 0> @Gantungan10 ;
+
+	pos @TundunAksara @Aksara7' <100 0 100 0> @Gantungan7 ;
+	pos @TundunAksara @Aksara7' <200 0 200 0> @Gantungan8 ;
+	pos @TundunAksara @Aksara7' <400 0 400 0> @Gantungan9 ;
+	pos @TundunAksara @Aksara7' <100 0 100 0> @Gantungan10 ;
+
+	pos @TundunAksara ka-bali' <50 0 50 0> @Gantungan7;
+	pos @TundunAksara [ka-bali ga-bali saSaga-bali ba-bali]' <100 0 100 0> @Gantungan8;
+	pos @TundunAksara [ka-bali ba-bali]' <350 0 350 0> @Gantungan9;
+	pos @TundunAksara [ga-bali saSaga-bali]' <360 0 360 0> @Gantungan9;
+	pos @TundunAksara la-bali' <250 0 250 0> @Gantungan9;
+	pos @TundunAksara nya-bali' <100 0 100 0> @Gantungan9;
+} Tundun-Aksara-Gantungan;
+
+lookup Tundun-Uluning-Aksara-Gantungan {
+	pos @TundunAksara @UluningAksara @Aksara1' <100 0 100 0> @Gantungan3;
+	pos @TundunAksara @UluningAksara @Aksara1' <200 0 200 0> @Gantungan4;
+	pos @TundunAksara @UluningAksara @Aksara1' <250 0 250 0> @Gantungan5;
+	pos @TundunAksara @UluningAksara @Aksara1' <350 0 350 0> @Gantungan6;
+	pos @TundunAksara @UluningAksara @Aksara1' <500 0 500 0> @Gantungan7;
+	pos @TundunAksara @UluningAksara @Aksara1' <600 0 600 0> @Gantungan8;
+	pos @TundunAksara @UluningAksara @Aksara1' <850 0 850 0> @Gantungan9;
+	pos @TundunAksara @UluningAksara @Aksara1' <500 0 500 0> @Gantungan10;
+
+	pos @TundunAksara @UluningAksara @Aksara2' <0 0 0 0> @Gantungan2;
+	pos @TundunAksara @UluningAksara @Aksara2' <250 0 250 0> @Gantungan3;
+	pos @TundunAksara @UluningAksara @Aksara2' <300 0 300 0> @Gantungan4;
+	pos @TundunAksara @UluningAksara @Aksara2' <280 0 280 0> @Gantungan5;
+	pos @TundunAksara @UluningAksara @Aksara2' <450 0 450 0> @Gantungan6;
+	pos @TundunAksara @UluningAksara @Aksara2' <550 0 550 0> @Gantungan7;
+	pos @TundunAksara @UluningAksara @Aksara2' <650 0 650 0> @Gantungan8;
+	pos @TundunAksara @UluningAksara @Aksara2' <900 0 900 0> @Gantungan9;
+	pos @TundunAksara @UluningAksara @Aksara2' <550 0 550 0> @Gantungan10;
+
+	pos @TundunAksara @UluningAksara @Aksara3' <50 0 50 0> @Gantungan3 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <100 0 100 0> @Gantungan4 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <140 0 140 0> @Gantungan5 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <230 0 230 0> @Gantungan6 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <380 0 380 0> @Gantungan7 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <500 0 500 0> @Gantungan8 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <700 0 700 0> @Gantungan9 ;
+	pos @TundunAksara @UluningAksara @Aksara3' <400 0 400 0> @Gantungan10 ;
+
+	pos @TundunAksara @UluningAksara @Aksara4' <50 0 50 0> @Gantungan4 ;
+	pos @TundunAksara @UluningAksara @Aksara4' <50 0 50 0> @Gantungan5 ;
+	pos @TundunAksara @UluningAksara @Aksara4' <180 0 180 0> @Gantungan6 ;
+	pos @TundunAksara @UluningAksara @Aksara4' <350 0 350 0> @Gantungan7 ;
+	pos @TundunAksara @UluningAksara @Aksara4' <450 0 450 0> @Gantungan8 ;
+	pos @TundunAksara @UluningAksara @Aksara4' <650 0 650 0> @Gantungan9 ;
+	pos @TundunAksara @UluningAksara @Aksara4' <350 0 350 0> @Gantungan10 ;
+
+	pos @TundunAksara @UluningAksara @Aksara5' <130 0 130 0> @Gantungan6 ;
+	pos @TundunAksara @UluningAksara @Aksara5' <260 0 260 0> @Gantungan7 ;
+	pos @TundunAksara @UluningAksara @Aksara5' <350 0 350 0> @Gantungan8 ;
+	pos @TundunAksara @UluningAksara @Aksara5' <600 0 600 0> @Gantungan9 ;
+	pos @TundunAksara @UluningAksara @Aksara5' <250 0 250 0> @Gantungan10 ;
+
+	pos @TundunAksara @UluningAksara @Aksara6' <40 0 40 0> @Gantungan6 ;
+	pos @TundunAksara @UluningAksara @Aksara6' <200 0 200 0> @Gantungan7 ;
+	pos @TundunAksara @UluningAksara @Aksara6' <300 0 300 0> @Gantungan8 ;
+	pos @TundunAksara @UluningAksara @Aksara6' <500 0 500 0> @Gantungan9 ;
+	pos @TundunAksara @UluningAksara @Aksara6' <200 0 200 0> @Gantungan10 ;
+
+	pos @TundunAksara @UluningAksara @Aksara7' <100 0 100 0> @Gantungan7 ;
+	pos @TundunAksara @UluningAksara @Aksara7' <200 0 200 0> @Gantungan8 ;
+	pos @TundunAksara @UluningAksara @Aksara7' <400 0 400 0> @Gantungan9 ;
+	pos @TundunAksara @UluningAksara @Aksara7' <100 0 100 0> @Gantungan10 ;
+
+	pos @TundunAksara @UluningAksara ka-bali' <50 0 50 0> @Gantungan7;
+	pos @TundunAksara @UluningAksara [ka-bali ga-bali saSaga-bali ba-bali]' <100 0 100 0> @Gantungan8;
+	pos @TundunAksara @UluningAksara [ka-bali ba-bali]' <350 0 350 0> @Gantungan9;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <360 0 360 0> @Gantungan9;
+	pos @TundunAksara @UluningAksara la-bali' <250 0 250 0> @Gantungan9;
+	pos @TundunAksara @UluningAksara nya-bali' <100 0 100 0> @Gantungan9;
+} Tundun-Uluning-Aksara-Gantungan;
+
+lookup Tundun-Aksara-Gantungan-Guwuung {
+	pos @TundunAksara @Aksara1' <300 0 300 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @Aksara1' <800 0 800 0> @Gantungan2 ra-bali.below3;
+	pos @TundunAksara @Aksara1' <500 0 500 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara1' <400 0 400 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara1' <400 0 400 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara1' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara1' <500 0 500 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara1' <550 0 550 0> @Gantungan7 ra-bali.below4;
+	pos @TundunAksara @Aksara1' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @Aksara2' <350 0 350 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @Aksara2' <350 0 350 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @Aksara2' <400 0 400 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara2' <350 0 350 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara2' <350 0 350 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara2' <200 0 200 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara2' <430 0 430 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara2' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara2' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @Aksara3' <200 0 200 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @Aksara3' <250 0 250 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @Aksara3' <450 0 450 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara3' <400 0 400 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara3' <380 0 380 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara3' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara3' <550 0 550 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara3' <400 0 400 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara3' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @Aksara4' <150 0 150 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @Aksara4' <150 0 150 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @Aksara4' <450 0 450 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara4' <400 0 400 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara4' <400 0 400 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara4' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara4' <550 0 550 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara4' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara4' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @Aksara5' <120 0 120 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @Aksara5' <120 0 120 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @Aksara5' <420 0 420 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara5' <430 0 430 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara5' <400 0 400 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara5' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara5' <550 0 550 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara5' <400 0 400 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara5' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @Aksara6' <50 0 50 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @Aksara6' <50 0 50 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @Aksara6' <300 0 300 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara6' <300 0 300 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara6' <300 0 300 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara6' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara6' <500 0 500 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara6' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara6' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @Aksara7' <200 0 200 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @Aksara7' <200 0 200 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @Aksara7' <200 0 200 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @Aksara7' <200 0 200 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @Aksara7' <450 0 450 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @Aksara7' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara7' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara ka-bali' <150 0 150 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara [ka-bali ka-bali.alt]' <200 0 200 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara ka-bali' <150 0 150 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara ka-bali' <150 0 150 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara ka-bali' <150 0 150 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara ka-bali' <150 0 150 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara ka-bali' <400 0 400 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara ka-bali' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara ka-bali' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara [ga-bali ga-bali.alt saSaga-bali saSaga-bali.alt]' <150 0 150 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara [ga-bali saSaga-bali]' <400 0 400 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara [ga-bali saSaga-bali]' <400 0 400 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara [ga-bali saSaga-bali]' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara ba-bali' <100 0 100 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara [ba-bali ba-bali.alt]' <150 0 150 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara ba-bali' <100 0 100 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara ba-bali' <100 0 100 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara ba-bali' <100 0 100 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara ba-bali' <100 0 100 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara ba-bali' <350 0 350 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara ba-bali' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara ba-bali' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara la-bali' <50 0 50 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara [la-bali la-bali.alt]' <50 0 50 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara la-bali' <50 0 50 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara la-bali' <50 0 50 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara la-bali' <50 0 50 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara la-bali' <50 0 50 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara la-bali' <300 0 300 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara la-bali' <300 0 300 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara la-bali' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara nya-bali' <50 0 50 0> @Gantungan1 ra-bali.below3;
+	pos @TundunAksara [nya-bali nya-bali.alt]' <50 0 50 0> @Gantungan2 ra-bali.below3;
+	pos @TundunAksara nya-bali' <250 0 250 0> @Gantungan3 ra-bali.below4;
+	pos @TundunAksara nya-bali' <250 0 250 0> @Gantungan4 ra-bali.below4;
+	pos @TundunAksara nya-bali' <400 0 400 0> @Gantungan5 ra-bali.below5;
+	pos @TundunAksara nya-bali' <400 0 400 0> @Gantungan6 ra-bali.below5;
+	pos @TundunAksara nya-bali' <400 0 400 0> la-bali.below ra-bali.below5;
+	pos @TundunAksara nya-bali' <400 0 400 0> @Gantungan7 ra-bali.below5;
+	pos @TundunAksara nya-bali' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara gaGora-bali' <350 0 350 0> @Gantungan9 ra-bali.below5;
+} Tundun-Aksara-Gantungan-Guwuung;
+
+lookup Tundun-Uluning-Aksara-Gantungan-Guwung {
+	pos @TundunAksara @UluningAksara @Aksara1' <300 0 300 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara1' <800 0 800 0> @Gantungan2 ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara1' <500 0 500 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara1' <400 0 400 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara1' <400 0 400 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara1' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara1' <500 0 500 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara1' <550 0 550 0> @Gantungan7 ra-bali.below4;
+	pos @TundunAksara @UluningAksara @Aksara1' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara @Aksara2' <350 0 350 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara2' <350 0 350 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara2' <400 0 400 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara2' <350 0 350 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara2' <350 0 350 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara2' <200 0 200 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara2' <430 0 430 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara2' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara2' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara @Aksara3' <200 0 200 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara3' <250 0 250 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara3' <450 0 450 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara3' <400 0 400 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara3' <380 0 380 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara3' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara3' <550 0 550 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara3' <400 0 400 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara3' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara @Aksara4' <150 0 150 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara4' <150 0 150 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara4' <450 0 450 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara4' <400 0 400 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara4' <400 0 400 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara4' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara4' <550 0 550 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara4' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara4' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara @Aksara5' <120 0 120 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara5' <120 0 120 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara5' <420 0 420 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara5' <430 0 430 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara5' <400 0 400 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara5' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara5' <550 0 550 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara5' <400 0 400 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @Aksara5' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara @Aksara6' <50 0 50 0> @Gantungan1 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara6' <50 0 50 0> @Gantungan2 ra-bali.below1;
+	pos @TundunAksara @UluningAksara @Aksara6' <300 0 300 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara6' <300 0 300 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara6' <300 0 300 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara6' <300 0 300 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara6' <500 0 500 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara6' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara6' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara @Aksara7' <200 0 200 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara7' <200 0 200 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara7' <200 0 200 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara7' <200 0 200 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara @Aksara7' <450 0 450 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara7' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara @Aksara7' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara ka-bali' <150 0 150 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ka-bali ka-bali.alt]' <200 0 200 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ka-bali' <150 0 150 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ka-bali' <150 0 150 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ka-bali' <150 0 150 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ka-bali' <150 0 150 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ka-bali' <400 0 400 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara ka-bali' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara ka-bali' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ga-bali ga-bali.alt saSaga-bali saSaga-bali.alt]' <150 0 150 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <150 0 150 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <400 0 400 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <400 0 400 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara [ga-bali saSaga-bali]' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara ba-bali' <100 0 100 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [ba-bali ba-bali.alt]' <150 0 150 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ba-bali' <100 0 100 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ba-bali' <100 0 100 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ba-bali' <100 0 100 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ba-bali' <100 0 100 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara ba-bali' <350 0 350 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara ba-bali' <350 0 350 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara ba-bali' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara la-bali' <50 0 50 0> @Gantungan1 ra-bali.below2;
+	pos @TundunAksara @UluningAksara [la-bali la-bali.alt]' <50 0 50 0> @Gantungan2 ra-bali.below2;
+	pos @TundunAksara @UluningAksara la-bali' <50 0 50 0> @Gantungan3 ra-bali.below2;
+	pos @TundunAksara @UluningAksara la-bali' <50 0 50 0> @Gantungan4 ra-bali.below2;
+	pos @TundunAksara @UluningAksara la-bali' <50 0 50 0> @Gantungan5 ra-bali.below2;
+	pos @TundunAksara @UluningAksara la-bali' <50 0 50 0> @Gantungan6 ra-bali.below2;
+	pos @TundunAksara @UluningAksara la-bali' <300 0 300 0> la-bali.below ra-bali.below3;
+	pos @TundunAksara @UluningAksara la-bali' <300 0 300 0> @Gantungan7 ra-bali.below3;
+	pos @TundunAksara @UluningAksara la-bali' <350 0 350 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara nya-bali' <50 0 50 0> @Gantungan1 ra-bali.below3;
+	pos @TundunAksara @UluningAksara [nya-bali nya-bali.alt]' <50 0 50 0> @Gantungan2 ra-bali.below3;
+	pos @TundunAksara @UluningAksara nya-bali' <250 0 250 0> @Gantungan3 ra-bali.below4;
+	pos @TundunAksara @UluningAksara nya-bali' <250 0 250 0> @Gantungan4 ra-bali.below4;
+	pos @TundunAksara @UluningAksara nya-bali' <400 0 400 0> @Gantungan5 ra-bali.below5;
+	pos @TundunAksara @UluningAksara nya-bali' <400 0 400 0> @Gantungan6 ra-bali.below5;
+	pos @TundunAksara @UluningAksara nya-bali' <400 0 400 0> la-bali.below ra-bali.below5;
+	pos @TundunAksara @UluningAksara nya-bali' <400 0 400 0> @Gantungan7 ra-bali.below5;
+	pos @TundunAksara @UluningAksara nya-bali' <300 0 300 0> @Gantungan9 ra-bali.below5;
+
+	pos @TundunAksara @UluningAksara gaGora-bali' <350 0 350 0> @Gantungan9 ra-bali.below5;
+} Tundun-Uluning-Aksara-Gantungan-Guwung;
+
+lookup MeetSukuAlt-Aksara-Gantungan {
+	pos @MeetSukuAlt @Tundun2 @Aksara3' <350 0 350 0> [wa-bali.below veSasak-bali.below taTawa-bali.below];
+	pos @MeetSukuAlt @Tundun2 @Aksara3' <400 0 400 0> [na-bali.below];
+
+	pos @MeetSukuAlt2 @Tundun2 @Aksara3' <150 0 150 0> @Gantungan3;
+} MeetSukuAlt-Aksara-Gantungan;
+
+lookup MeetSukuAlt-Aksara-Gantungan-Guwung {
+	pos @MeetSukuAlt @Tundun2 @Aksara1' <780 0 780 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt @Tundun2 @Aksara2' <850 0 850 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt @Tundun2 @Aksara3' <600 0 600 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt @Tundun2 @Aksara4' <600 0 600 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt @Tundun2 @Aksara5' <600 0 600 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt @Tundun2 @Aksara6' <500 0 500 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt @Tundun2 @Aksara7' <400 0 400 0> @Gantungan1 ra-bali.below1;
+
+	pos @MeetSukuAlt2 @Tundun2 @Aksara1' <700 0 700 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt2 @Tundun2 @Aksara2' <750 0 750 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt2 @Tundun2 @Aksara3' <600 0 600 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt2 @Tundun2 @Aksara4' <500 0 500 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt2 @Tundun2 @Aksara5' <500 0 500 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt2 @Tundun2 @Aksara6' <400 0 400 0> @Gantungan1 ra-bali.below1;
+	pos @MeetSukuAlt2 @Tundun2 @Aksara7' <300 0 300 0> @Gantungan1 ra-bali.below1;
+} MeetSukuAlt-Aksara-Gantungan-Guwung;
+
+lookup MeetSukuAlt-Aksara-YaPost {
+	pos @MeetSukuAlt @Tundun2 @Aksara2' <100 0 100 0> [ya-bali.post ya-bali.post.short];
+} MeetSukuAlt-Aksara-YaPost;
+
+pos @TundunAksara @Aksara3' <100 0 100 0> [daMadu-bali.below_ya-bali.post2 daMadu-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <100 0 100 0> [ta-bali.below_ya-bali.post2 ta-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <100 0 100 0> [baKembang-bali.below_ya-bali.post2 baKembang-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <120 0 120 0> [ga-bali.below_ya-bali.post2 saSaga-bali.below_ya-bali.post2 ga-bali.below_ya-bali.post2.short saSaga-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <120 0 120 0> [ka-bali.below_ya-bali.post2 ka-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <120 0 120 0> [nga-bali.below_ya-bali.post2 nga-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <220 0 220 0> [naRambat-bali.below_ya-bali.post2 naRambat-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <250 0 250 0> [ca-bali.below_ya-bali.post2 ca-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <270 0 270 0> [la-bali.below_ya-bali.post2 la-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <400 0 400 0> [ba-bali.below_ya-bali.post2 ba-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <730 0 730 0> [nya-bali.below_ya-bali.post2 nya-bali.below_ya-bali.post2.short];
+pos @TundunAksara @Aksara3' <730 0 730 0> [gaGora-bali.below_ya-bali.post2 gaGora-bali.below_ya-bali.post2.short];
+
+pos @TundunAksara @UluningAksara @Aksara3' <100 0 100 0> [daMadu-bali.below_ya-bali.post2 daMadu-bali.below_ya-bali.post2.short];
+pos @TundunAksara @UluningAksara @Aksara3' <100 0 100 0> [ta-bali.below_ya-bali.post2 ta-bali.below_ya-bali.post2.short];
+";
+tag = dist;
 }
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = hheaAscender;
+value = 1490;
+},
+{
+name = hheaDescender;
+value = -1890;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1490;
+},
+{
+name = typoDescender;
+value = -1890;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1490;
+},
+{
+name = winDescent;
+value = 1890;
+}
+);
 guides = (
 {
 angle = 180;
@@ -969,6 +1581,31 @@ GSRoughenHorizontal = 15;
 GSRoughenSegmentLength = 15;
 GSRoughenVertical = 10;
 };
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = "Name Table Entry";
+value = "6; GodyaDisplayBalinese-Rg";
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+properties = (
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "Godya Display";
+}
+);
+}
+);
 }
 );
 kerningLTR = {
@@ -1939,6 +2576,65 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2025 by Yunita Virayani. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Yunita Virayani";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Balibilly Design";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://balibillydesign.com/freebies/";
+},
+{
+key = postscriptFontName;
+value = "Godya-Display";
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "Godya Display";
+}
+);
 }
 );
 unitsPerEm = 1000;
