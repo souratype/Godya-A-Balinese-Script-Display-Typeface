@@ -3,6 +3,8 @@ Godya — Balinese Display Typeface
 Godya is an open-source Balinese script typeface with a display-oriented sans-serif style.  
 This typeface was independently designed and developed by a student as part of an internship project.
 
+For a detailed overview of the design and development process, please refer to the full case study on Behance: https://www.behance.net/gallery/241691955/Godya-Display-Balinese-Script-Typeface
+
 ## Project Background
 
 Godya was created through personal research and experimentation in Balinese script typography.  
